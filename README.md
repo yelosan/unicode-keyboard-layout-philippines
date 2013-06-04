@@ -2,7 +2,7 @@
 
 The **Philippines National Keyboard Layout** or **PNKL** is the first and only keyboard layout made for Filipinos by Filipinos.  Its main feature is the incorporation of the characters commonly used in the Philippines especially the _Philippine Peso Sign_ (**₱**).  Prior to this, Filipinos have to use a strike-through letter P (~~P~~); the Dollar Sign ($) [the de facto universal currency sign but is confusing today]; or the not-so-common neutral currency symbol: ¤
 
-PNKL also comes with **Baybayin** (incorrectly known as _Alibata'_) keyboard layout.  Baybayin is the original writing script of most, if not all, Filipino ancestors.  Originally thought to be a dead script, it was discovered that there are still Filipino tribes who actively use Baybayin as part of their culture, undisturbed by time.
+PNKL also comes with **Baybayin** (incorrectly known as _Alibata_) keyboard layout.  Baybayin is the original writing script of most, if not all, Filipino ancestors.  Originally thought to be a dead script, it was discovered that there are still Filipino tribes who actively use Baybayin as part of their culture, undisturbed by time.
 
 Official website: [http://jcsesecuneta.com/tome/labox/the-philippines-national-keyboard-layout][0]
 
