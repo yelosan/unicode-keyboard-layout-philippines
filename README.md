@@ -4,9 +4,9 @@ The **Philippines National Keyboard Layout** or **PNKL** is the first and only k
 
 PNKL also comes with **Baybayin** (incorrectly known as _Alibata_) keyboard layout.  Baybayin is the original writing script of most, if not all, Filipino ancestors.  Originally thought to be a dead script, it was discovered that there are still Filipino tribes who actively use Baybayin as part of their culture, undisturbed by time.
 
-Official website: [http://jcsesecuneta.com/tome/labox/the-philippines-national-keyboard-layout][0]
+Official website: [https://techmagus.ninja/the-philippines-national-keyboard-layout][0]
 
-_A project of [JC_John Sese-Cuneta] and the [Ubuntu Philippines Local Community]._
+_A project of [techmagus™] and the [Ubuntu Philippines Local Community]._
 
 
 ## Layouts
@@ -80,11 +80,11 @@ _A project of [JC_John Sese-Cuneta] and the [Ubuntu Philippines Local Community]
 
 
 
-[0]: http://jcsesecuneta.com/tome/labox/the-philippines-national-keyboard-layout "Official PNKL Page"
-[JC_John Sese-Cuneta]: http://jcsesecuneta.com "The Hæven of John™"
+[0]: https://techmagus.ninja/the-philippines-national-keyboard-layout "Official PNKL Page"
+[techmagus™]: https://techmagus.ninja "techmagus™"
 [Ubuntu Philippines Local Community]: http://loco.ubuntu.com/teams/loco-philippine-team/ "Ubuntu Philippines LoCo"
-[GNU/Linux]: http://jcsesecuneta.com/tome/labox/the-philippines-national-keyboard-layout-for-linux-is-now-out "GNU/Linux Instructions"
-[Microsoft Windows]: http://jcsesecuneta.com/tome/labox/philippines-national-keyboard-layout-now-available-for-windows "Microsoft Windows Guide"
+[GNU/Linux]: https://techmagus.ninja/the-philippines-national-keyboard-layout-for-linux-is-now-out "GNU/Linux Instructions"
+[Microsoft Windows]: https://techmagus.ninja/philippines-national-keyboard-layout-now-available-for-windows "Microsoft Windows Guide"
 [1]: https://lh3.ggpht.com/_tG11xBRpOKo/TMUmw9zmCtI/AAAAAAAAAJE/qnhSrVJsjcE/s800/Philippines-QWERTY%20%28Baybayin%29.png "QWERTY (Baybayin)"
 [2]: https://lh4.ggpht.com/_tG11xBRpOKo/TMV95mMEDwI/AAAAAAAAAJg/11Wq1l7qJR0/s800/Philippines-QWERTY%20%28Latin%29.png "QWERTY (Latin)"
 [3]: https://lh6.ggpht.com/_tG11xBRpOKo/TMUmmdtDkYI/AAAAAAAAAIk/o9IQ2sYO4Rc/s800/Philippines-Capewell-Dvorak%20%28Baybayin%29.png "Capewell-Dvorak (Baybayin)"
