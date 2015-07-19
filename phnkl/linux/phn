@@ -1,0 +1,89 @@
+////////////////////////////////////////////////////////////////////////////////
+// Phoenician Keyboard Layout v1.0.0 (2015-07)                                //
+// https://techmagus.ninja/Paleo-Hebrew-Phoenician-Keyboard-Layout/           //
+//                                                                            //
+// License: Apache 2.0                                                        //
+//                                                                            //
+// By: Paninap Services                                                       //
+// Team: https://bitbucket.org/paninap                                        //
+//                                                                            //
+// Project Contact: JC John "Yuki" Sese Cuneta                                //
+// Git: https://bitbucket.org/paninap/phnkl                                   //
+////////////////////////////////////////////////////////////////////////////////
+
+// Neo-Paleo Layout
+// http://loveandtruth.net/neopaleo.html
+//
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+name[Group1]= "Phoenician - Neo-Paleo Layout";
+
+// ISO grouping
+//              |------------- Group1 -------------||- Group2 -|
+//                 Level1      Level2      Level3      Level4
+//                  Base       Shift       AltGr     AltGr+Shift
+
+  // E row; Numerals row, left side
+  key <TLDE> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AE01> { [ U10916,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // 1
+  key <AE02> { [ U1091a,     U10918,     VoidSymbol, VoidSymbol ] }; // 2 20
+  key <AE03> { [ U1091b,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // 3
+  key <AE04> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AE05> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  // E row; Numerals row, right side
+  key <AE06> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AE07> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AE08> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AE09> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AE10> { [ U10917,     U10919,     VoidSymbol, VoidSymbol ] }; // 10 100
+  key <AE11> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AE12> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+
+  // D row; QWERTY row, left side
+  key <AD01> { [ U10912,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // qof
+  key <AD02> { [ U10914,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // shin
+  key <AD03> { [ U10904,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // hey/he/eh
+  key <AD04> { [ U10913,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // resh/rosh
+  key <AD05> { [ U10908,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // tet
+  // D row; QWERTY row, right side
+  key <AD06> { [ U10909,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // yod/iod
+  key <AD07> { [ U10905,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // uau/wau/vav
+  key <AD08> { [ U10909,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // yod/iod
+  key <AD09> { [ U1090f,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // ayin/ain
+  key <AD10> { [ U10910,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // pe/fe
+  key <AD11> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AD12> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <BKSL> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+
+  // C row; Home row, left side
+  key <AC01> { [ U10900,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // alef/alf
+  key <AC02> { [ U1090e,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // samekh/semk
+  key <AC03> { [ U10903,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // dalet/delt
+  key <AC04> { [ U10910,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // pe/fe
+  key <AC05> { [ U10902,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // gimel/gaml
+  // C row; Home row, right side
+  key <AC06> { [ U10907,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // het
+  key <AC07> { [ U10906,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // zayin/zai
+  key <AC08> { [ U1090a,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // kaf/caf
+  key <AC09> { [ U1090b,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // lamed/lamd
+  key <AC10> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AC11> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+
+  // B row; Lower row, left side
+  key <AB00> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+  key <AB01> { [ U10911,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // tsadi/sade
+  key <AB02> { [ U10915,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // tau/tav
+  key <AB03> { [ U1090a,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // kaf/caf
+  key <AB04> { [ U10905,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // uau/wau/vav
+  key <AB05> { [ U10901,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // bet
+  // B row; Lower row, right side
+  key <AB06> { [ U1090d,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // nun
+  key <AB07> { [ U1090c,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // mem
+  key <AB08> { [ U1091f,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // (word separator)
+  key <AB09> { [ U1091f,     VoidSymbol, VoidSymbol, VoidSymbol ] }; // (word separator)
+  key <AB10> { [ VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; //
+
+  // A row
+  key <AA03> { [ U0020,      U0020,      U0020,      U0020      ] }; // (space) (space) (space) (space)
+};
