@@ -1,25 +1,44 @@
-////////////////////////////////////////////////////////////////////////////////
-// Philippines National Keyboard Layout v1.0.0 (2010-10-23)                   //
-// http://laibcoms.com/sandbox/the-philippines-national-keyboard-layout       //
-//                                                                            //
-// License: GNU/GPLv3                                                         //
-//                                                                            //
-// Loosely based on ISO/IEC 9995-3:2009                                       //
-//	* glyphs that are not used in Philippine Languages and                //
-//		Philippine English were not included                          //
-//	* Additions/Changes that are not part of ISO/IEC 9995-3:2009          //
-//		were added                                                    //
-//                                                                            //
-// http://en.wikipedia.org/wiki/ISO/IEC_9995                                  //
-// http://www.fileformat.info/info/unicode/char/20B1/index.htm                //
-//                                                                            //
-// By: Ubuntu Philippines LoCo Team                                           //
-// Site: http://ubuntu-ph.org                                                 //
-//                                                                            //
-// Project Contact: JC John Sese Cuneta / 謝施洗 / ᜑᜓᜏᜈ᜔ ᜃᜓᜈᜒᜆ                                    //
-// XMPP/Jabber: jcjohn.sesecuneta@talkr.im                                    //
-// Email: jcjohn.sesecuneta@laibcoms.com                                      //
-////////////////////////////////////////////////////////////////////////////////
+// Philippines National Keyboard Layout v1.0.0 (2010-10-23)
+// http://techmagus.ninja/the-philippines-national-keyboard-layout
+//
+// Loosely based on ISO/IEC 9995-3:2009
+//	* glyphs that are not used in Philippine Languages and
+//		Philippine English were not included
+//	* Additions/Changes that are not part of ISO/IEC 9995-3:2009
+//		were added
+//
+// http://en.wikipedia.org/wiki/ISO/IEC_9995
+// http://www.fileformat.info/info/unicode/char/20B1/index.htm
+//
+// By: Ubuntu Philippines LoCo Team and Paninap Services
+// Site: http://ubuntu-ph.org
+// Team: https://bitbucket.org/paninap
+//
+// Project Contact: JC John Sese Cuneta
+// Contact Yuki: https://jcsesecuneta.com/contact-us/
+// Git: https://bitbucket.org/paninap/phnkl
+
+// The MIT License (MIT)
+//
+// Copyright © 2010, 2015 JC John Sese Cuneta
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
 
 // QWERTY (Latin) version
 // http://en.wikipedia.org/wiki/QWERTY
@@ -85,7 +104,7 @@ xkb_symbols "basic" {
     // C row; Home row, left side
 	key <AC01> { [	U0061,		U0041,		U00E6,		U00C6		] }; // a A æ Æ
 	key <AC02> { [	U0073,		U0053,		U00A7,		VoidSymbol	] }; // s S §
-	key <AC03> { [	U0064,		U0044,		VoidSymbol,	VoidSymbol	] }; // d D 
+	key <AC03> { [	U0064,		U0044,		VoidSymbol,	VoidSymbol	] }; // d D
 	key <AC04> { [	U0066,		U0046,		VoidSymbol,	U00AA		] }; // f F   ª
 	key <AC05> { [	U0067,		U0047,		VoidSymbol,	VoidSymbol	] }; // g G
     // C row; Home row, right side

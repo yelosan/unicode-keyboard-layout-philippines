@@ -1,4 +1,4 @@
-# Paninap Unicode Keyboard Layout ("PUKBL")
+﻿# Paninap Unicode Keyboard Layout ("PUKBL")
 Welcome to our combined repository for Unicode-compliant keyboard layout projects. Our first release was the **Philippines National Keyboard Layout** in 2010, which was followed by the **Phoenician Keyboard Layout** in 2015. As our Unicode keyboard layout project grows (there are more in our plate), it is only logical to combine the repositories into one before it becomes unwieldy. Hence, the birth of the **Paninap Unicode Keyboard Layout** or **PUKBL**.
 
 ## Project Details
@@ -26,5 +26,8 @@ Welcome to our combined repository for Unicode-compliant keyboard layout project
     * Tagbanwa
 
 ## Attributions
+### To 𐤉𐤄𐤅𐤄 (Yahuah) and his son 𐤉𐤄𐤅𐤔𐤏 (Yahusha)
+Thank you for the strength and support. You deserve all the glory, honour, praise, and worship, now and forevermore. AHMEIN! 𐤄𐤋𐤋𐤅𐤉𐤄 (HalleluYAH)
+
 ### Blank Keyboard Layout
 By KB_United_States-NoAltGr.svg: [w:en:user:Deadcode]derivative work: DaemonDice (KB_United_States-NoAltGr.svg) [GFDL](http://www.gnu.org/copyleft/fdl.html), [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ABlank_BRSB_Keyboard_Layout.svg)
