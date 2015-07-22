@@ -1,4 +1,4 @@
-﻿// based on a keyboard map from an 'xkb/symbols/il' file
+// based on a keyboard map from an 'xkb/symbols/il' file
 
 // This is an implemetation of the Israeli standard SI-1452 (2013)
 // It does not implement changes to the English layout, as that part
@@ -379,7 +379,7 @@ xkb_symbols "phn-neopaleo" {
   // E row; Numerals row, left side
   key <TLDE> { [ VoidSymbol, VoidSymbol ] }; //
   key <AE01> { [ U10916,     VoidSymbol ] }; // 1
-  key <AE02> { [ U1091a,     U10918     ] }; // 2 20
+  key <AE02> { [ U1091a,     U10918     ] }; // 2, 20
   key <AE03> { [ U1091b,     VoidSymbol ] }; // 3
   key <AE04> { [ VoidSymbol, VoidSymbol ] }; //
   key <AE05> { [ VoidSymbol, VoidSymbol ] }; //
@@ -388,7 +388,7 @@ xkb_symbols "phn-neopaleo" {
   key <AE07> { [ VoidSymbol, VoidSymbol ] }; //
   key <AE08> { [ VoidSymbol, VoidSymbol ] }; //
   key <AE09> { [ VoidSymbol, VoidSymbol ] }; //
-  key <AE10> { [ U10917,     U10919     ] }; // 10 100
+  key <AE10> { [ U10917,     U10919     ] }; // 10, 100
   key <AE11> { [ VoidSymbol, VoidSymbol ] }; //
   key <AE12> { [ VoidSymbol, VoidSymbol ] }; //
 
@@ -396,7 +396,7 @@ xkb_symbols "phn-neopaleo" {
   key <AD01> { [ U10912,     VoidSymbol ] }; // qof
   key <AD02> { [ U10914,     VoidSymbol ] }; // shin
   key <AD03> { [ U10904,     VoidSymbol ] }; // hey/he/eh
-  key <AD04> { [ U10913,     VoidSymbol ] }; // resh/rosh
+  key <AD04> { [ U10913,     U+2067     ] }; // resh/rosh, RTL isolate (invisible marker)
   key <AD05> { [ U10908,     VoidSymbol ] }; // tet
   // D row; QWERTY row, right side
   key <AD06> { [ U10909,     VoidSymbol ] }; // yod/iod
@@ -418,7 +418,7 @@ xkb_symbols "phn-neopaleo" {
   key <AC06> { [ U10907,     VoidSymbol ] }; // het
   key <AC07> { [ U10906,     VoidSymbol ] }; // zayin/zai
   key <AC08> { [ U1090a,     VoidSymbol ] }; // kaf/caf
-  key <AC09> { [ U1090b,     VoidSymbol ] }; // lamed/lamd
+  key <AC09> { [ U1090b,     U+2066     ] }; // lamed/lamd, LTR isolate (invisible marker)
   key <AC10> { [ VoidSymbol, VoidSymbol ] }; //
   key <AC11> { [ VoidSymbol, VoidSymbol ] }; //
 
@@ -433,7 +433,7 @@ xkb_symbols "phn-neopaleo" {
   key <AB06> { [ U1090d,     VoidSymbol ] }; // nun
   key <AB07> { [ U1090c,     VoidSymbol ] }; // mem
   key <AB08> { [ U1091f,     VoidSymbol ] }; // (word separator)
-  key <AB09> { [ U1091f,     VoidSymbol ] }; // (word separator)
+  key <AB09> { [ U1091f,     U+2069     ] }; // (word separator), terminates RTL/LTR marker (invisible)
   key <AB10> { [ VoidSymbol, VoidSymbol ] }; //
 
   // A row
