@@ -9,7 +9,7 @@ PH-UKL also comes with **Baybayin** (incorrectly known as _Alibata_) keyboard la
   * Unicode name: ASCII; Tagalog (i.e. Baybayin)
   * Latest version: 1.0.0
   * First release: 2010-10
-  * Official website: [https://techmagus.ninja/the-philippines-national-keyboard-layout](https://techmagus.ninja/the-philippines-national-keyboard-layout "Official PH-UKL Page")
+  * Official website: [https://techmagus.icu/the-philippines-national-keyboard-layout](https://techmagus.icu/the-philippines-national-keyboard-layout "Official PH-UKL Page")
   * Git: [https://bitbucket.org/paninap/PH-UKL](https://bitbucket.org/paninap/ph-ukl "BitBucket Git Source")
   * Project contact: Yahanan 'Yuki' Xie
 
@@ -19,9 +19,11 @@ _A project of [techmagus™] and the [Ubuntu Philippines Local Community]._
 To see the glyphs that you are typing, you will need a Unicode-compliant or mixed-Unicode set of fonts. For more information and download links, visit our [wiki here](https://bitbucket.org/paninap/ph-ukl/wiki/Fonts "Fonts").
 
 ## License
-  * Content license: Creative Commons-Attribution 4.0 International (CC BY-SA 4.0 International License)
-  * Code license:
+  * Content License: Creative Commons-Attribution 4.0 International (CC BY-SA 4.0 International License)
+  * Code Copyright and License:
       * Copyright © 2010, 2015 JC John Sese Cuneta; [The MIT License](https://bitbucket.org/paninap/ph-ukl/wiki/License "LICENSE")
+      * Copyleft 🄯 2010, 2015 JC John Sese Cuneta
+      * CC0/PD: The Baybayin pack has been dedicated to the Public Domain through CC0 (CC-zero) on 2018-05-04.
 
 ## Keyboard Layout Images
 ### QWERTY (Baybayin)
