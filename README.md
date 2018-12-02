@@ -1,5 +1,5 @@
-﻿# Philippines National Keyboard Layout (PH-UKL)
-The **Philippines National Keyboard Layout** or **PH-UKL** is the first Unicode-based keyboard layout made for the Filipino nation and state of the Philippines. Its main feature is the incorporation of the characters commonly used in the Philippines especially the _Philippine Peso Sign_ (**₱**). Prior to this, Filipinos have to use a strike-through letter P (~~P~~); the Dollar Sign ($) [the de facto universal currency sign but is confusing today]; or the not-so-common neutral currency symbol: ¤
+﻿# Philippines Unicode Keyboard Layout (PH-UKL)
+The **Philippines Unicode Keyboard Layout** or **PH-UKL** is the first Unicode-based keyboard layout made for the Filipino nation and state of the Philippines. Its main feature is the incorporation of the characters commonly used in the Philippines especially the _Philippine Peso Sign_ (**₱**). Prior to this, Filipinos have to use a strike-through letter P (~~P~~); the Dollar Sign ($) [the de facto universal currency sign but is confusing today]; or the not-so-common neutral currency symbol: ¤
 
 PH-UKL also comes with **Baybayin** (incorrectly known as _Alibata_) keyboard layout, or **Tagalog** as officially referred to in Unicode 3.2. Baybayin is the original writing script of most, if not all, Filipino ancestors. Originally thought to be a dead script, it was discovered that there are still Filipino tribes who actively use Baybayin as part of their culture, undisturbed by time.
 
@@ -56,7 +56,7 @@ To see the glyphs that you are typing, you will need a Unicode-compliant or mixe
 ### Dvorak (Latin)
 ![Dvorak (Latin)](https://lh3.googleusercontent.com/-IPzJrxh1_vg/TncoS7FQ61I/AAAAAAAAAVQ/65UR2jN6Aes/s800/Philippines-Dvorak%252520Simplified%252520%252528Latin%252529.png "Dvorak (Latin)")
 
-[techmagus™]: https://techmagus.ninja "techmagus™"
+[techmagus™]: https://techmagus.icu "techmagus™"
 [Ubuntu Philippines Local Community]: http://loco.ubuntu.com/teams/loco-philippine-team/ "Ubuntu Philippines LoCo"
 [U+1700…U+171F]: http://www.unicode.org/charts/PDF/U1700.pdf "Official Unicode Consortium code chart for Tagalog (PDF)"
 [Unicode 8.0 (2015-06-17)]: http://blog.unicode.org/2015/06/announcing-unicode-standard-version-80.html "Announcing The Unicode® Standard, Version 8.0"
