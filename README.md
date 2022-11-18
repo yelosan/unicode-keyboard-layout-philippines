@@ -12,21 +12,21 @@ PH-UKL also comes with **Baybayin** (incorrectly known as *Alibata*) keyboard la
 - Latest version: 1.0.0
 - First release: 2010-10-23
 - Official website: [https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/](https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/ "Official PH-UKL Page")
-- Git: [https://bitbucket.org/paninap/PH-UKL](https://bitbucket.org/paninap/ph-ukl "BitBucket Git Source")
+- Git: [https://codeberg.org/yelosan/unicode-keyboard-layout-philippines](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines)
 - Project contact: [techmagus](https://im.youronly.one/p/contact-us/)
 
 *A project of [Yelosan Publishing](https://yelosan.youronly.one) and the [Ubuntu Philippines Local Community](https://loco.ubuntu.com/teams/loco-philippine-team/).*
 
 ## Fonts
 
-To see the glyphs that you are typing, you will need a Unicode-compliant or mixed-Unicode set of fonts. For more information and download links, visit our [wiki here](https://bitbucket.org/paninap/ph-ukl/wiki/Fonts).
+To see the glyphs that you are typing, you will need a Unicode-compliant or mixed-Unicode set of fonts. For more information and download links, visit our [wiki here](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/wiki/Fonts).
 
 ## License
 
 - Content License: Creative Commons-Attribution 4.0 International (CC BY-SA 4.0 International License)
 - Code Copyright and License:
   - Copyright © 2010, 2015 JC John Sese Cuneta.
-  - Copyleft 🄯 2010, 2015 JC John Sese Cuneta. [The MIT License](https://bitbucket.org/paninap/ph-ukl/wiki/License)
+  - Copyleft 🄯 2010, 2015 JC John Sese Cuneta. [The MIT License](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/src/branch/main/LICENSE)
   - CC0/PD: The Baybayin pack and keyboard layout images has been dedicated to the Public Domain through CC0 (CC-zero) on 2018-05-04.
 
 ## Keyboard Layout Images
