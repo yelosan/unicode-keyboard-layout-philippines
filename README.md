@@ -4,30 +4,48 @@ The **Philippines Unicode Keyboard Layout** or **PH-UKL** is the first Unicode-b
 
 PH-UKL also comes with **Baybayin** (incorrectly known as *Alibata*) keyboard layout, in particular the *Tagalog* variant. Baybayin is the original writing script of most, if not all, Filipino ancestors. Originally thought to be a dead script, it was discovered that there are still Filipino tribes who actively use Baybayin as part of their culture, undisturbed by time.
 
-### Project info
+## Project info
 
-- Based on: [Unicode 8.0 (2015-06-17)](https://blog.unicode.org/2015/06/announcing-unicode-standard-version-80.html)
-- Unicode block: ASCII; [U+1700…U+171F](https://www.unicode.org/charts/PDF/U1700.pdf); U+1735…U+1736
-- Unicode name: ASCII; Baybayin-Tagalog
-- Latest version: 1.0.0
-- First release: 2010-10-23
-- Official website: [https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/](https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/ "Official PH-UKL Page")
+- Release history:
+  - Standard (Latin): v1.0.0 (Unicode 8 (2015))
+  - Baybayin-Buhid, Baybayin-Hanunoo, Baybayin-Tagalog, Baybayin-Tagbanwa: v2.0.1 (Unicode 11 (2018))
+- First release: 2010-10-23 (Unicode 6 (2010))
+- On next release:
+  - Will be updated to [Unicode 15.0 (2022-09-13)](https://www.unicode.org/versions/Unicode15.0.0/)
+- Unicode blocks:
+  - Standard (Latin)
+  - Baybayin-Buhid: [U+1740…U+175F](https://www.unicode.org/charts/PDF/U1740.pdf)
+  - Baybayin-Hanunoo: [U+1720…U+173F](https://www.unicode.org/charts/PDF/U1720.pdf)
+  - Baybayin-Tagalog: [U+1700…U+171F](https://www.unicode.org/charts/PDF/U1700.pdf)
+  - Baybayin-Tagbanwa: [U+1760…U+177F](https://www.unicode.org/charts/PDF/U1760.pdf)
 - Git: [https://codeberg.org/yelosan/unicode-keyboard-layout-philippines](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines)
+- Official website: [https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/](https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/ "Official PH-UKL Page")
 - Project contact: [techmagus](https://im.youronly.one/p/contact-us/)
 
 *A project of [Yelosan Publishing](https://yelosan.youronly.one) and the [Ubuntu Philippines Local Community](https://loco.ubuntu.com/teams/loco-philippine-team/).*
 
 ## Fonts
 
-To see the glyphs that you are typing, you will need a Unicode-compliant or mixed-Unicode set of fonts. For more information and download links, visit our [wiki here](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/wiki/Fonts).
+To see the characters you are typing, you will need a Unicode-compliant or mixed-Unicode set of fonts. For more information and download links, visit our [wiki here](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/wiki/Fonts).
 
 ## License
 
 - Content License: Creative Commons-Attribution 4.0 International (CC BY-SA 4.0 International License)
 - Code Copyright and License:
-  - Copyright © 2010, 2015 JC John Sese Cuneta.
-  - Copyleft 🄯 2010, 2015 JC John Sese Cuneta. [The MIT License](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/src/branch/main/LICENSE)
-  - CC0/PD: The Baybayin pack and keyboard layout images has been dedicated to the Public Domain through CC0 (CC-zero) on 2018-05-04.
+  - Linux code
+    - Copyleft 🄯 2010, 2015 JC John Sese Cuneta. MIT License (X11).
+  - Windows code
+    - Baybayin-Tagalog variants
+      - Copyleft 🄯 2010, 2015 JC John Sese Cuneta. GNU/GPLv3 and MIT License (X11).
+      - CC0/Public Domain 2018 JC John Sese Cuneta.
+    - Baybayin-Buhid, Baybayin-Hanunoo, and Baybayin-Tagbanwa
+      - CC0/Public Domain 2018 JC John Sese Cuneta.
+    - Standard (Latin) variants
+      - Copyleft 🄯 2010, 2015 JC John Sese Cuneta. GNU/GPLv3 and MIT License (X11).
+
+### On Licenses
+
+The source code of the next release will be dedicated to the Public Domain through CC0 (CC-zero).
 
 ## Keyboard Layout Images
 
