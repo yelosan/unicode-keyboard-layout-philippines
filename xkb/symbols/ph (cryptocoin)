@@ -1,0 +1,601 @@
+// BGN: Philippines Unicode Keyboard Layout - QWERTY
+  //
+  // Code license: MIT License
+  // Layout license: Creative Commons Attribution (CC BY) 4.0 International by JC John Sese Cuneta
+  //   * First released: 2010
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Based on: ISO/IEC 9995-3:2010 as of 2023-02-05
+  //   * https://en.wikipedia.org/wiki/ISO/IEC_9995
+  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  default partial alphanumeric_keys
+  xkb_symbols "basic" {
+    name[Group1] = "Filipino, English (Philippines)";
+
+    // NUMERIC row
+    include "ph(numeric-row)"
+
+    // TOP row
+    key <AD01> { [      U0071,      U0051, VoidSymbol, VoidSymbol ] }; // q Q
+    key <AD02> { [      U0077,      U0057, VoidSymbol,      U20A9 ] }; // w W L3 ₩
+    key <AD03> { [      U0065,      U0045, VoidSymbol, VoidSymbol ] }; // e E
+    key <AD04> { [      U0072,      U0052,      U00AE,      U00B6 ] }; // r R ® ¶ (L4: paragraph mark)
+    key <AD05> { [      U0074,      U0054,      U2122, VoidSymbol ] }; // t T ™
+    key <AD06> { [      U0079,      U0059, VoidSymbol,      U00A5 ] }; // y Y L3 ¥
+    key <AD07> { [      U0075,      U0055, VoidSymbol, VoidSymbol ] }; // u U
+    key <AD08> { [      U0069,      U0049,      U2018,      U201C ] }; // i I ‘ “
+    key <AD09> { [      U006F,      U004F,      U2019,      U201D ] }; // o O ’ ”
+    key <AD10> { [      U0070,      U0050, VoidSymbol,      U20B1 ] }; // p P L3 ₱
+    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
+    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+    key <BKSL> { [      U005C,      U007C,      U0259,      U018F ] }; // \ | ə Ə
+
+    // HOME row
+    key <AC01> { [      U0061,      U0041, VoidSymbol, VoidSymbol ] }; // a A
+    key <AC02> { [      U0073,      U0053,     U1F6C8,      U00A7 ] }; // s S 🛈 § (L3: circled source mark) (L4: section mark)
+    key <AC03> { [      U0064,      U0044, VoidSymbol, VoidSymbol ] }; // d D
+    key <AC04> { [      U0066,      U0046,     U1F12F, VoidSymbol ] }; // f F 🄯 (L3: copyleft)
+    key <AC05> { [      U0067,      U0047, VoidSymbol, VoidSymbol ] }; // g G
+    key <AC06> { [      U0068,      U0048, VoidSymbol, VoidSymbol ] }; // h H
+    key <AC07> { [      U006A,      U004A, VoidSymbol, VoidSymbol ] }; // j J
+    key <AC08> { [      U006B,      U004B, VoidSymbol,      U339E ] }; // k K L3 ㎞ (L4: kilometer symbol)
+    key <AC09> { [      U006C,      U004C, VoidSymbol, VoidSymbol ] }; // l L
+    key <AC10> { [      U003B,      U003A,      U0304,      U035E ] }; // ; : ◌̄ ◌͞ (L3: combining macron | tuldik pahaba) (L4: combining double macron | tuldik pahaba)
+    key <AC11> { [      U0027,      U0022,      U0301,      U0308 ] }; // ' " ◌́ ◌̈ (L3: combining acute | tuldik pahilis) (L4: combining dieresis | tuldik patuldok)
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+    key <AB01> { [      U007A,      U005A, VoidSymbol, VoidSymbol ] }; // z Z
+    key <AB02> { [      U0078,      U0058, VoidSymbol, VoidSymbol ] }; // x X
+    key <AB03> { [      U0063,      U0043,      U00A9,      U339D ] }; // c C © ㎝ (L4: centimeter symbol)
+    key <AB04> { [      U0076,      U0056, VoidSymbol, VoidSymbol ] }; // v V
+    key <AB05> { [      U0062,      U0042, VoidSymbol, VoidSymbol ] }; // b B
+    key <AB06> { [      U006E,      U004E,      U00F1,      U00D1 ] }; // n N ñ Ñ
+    key <AB07> { [      U006D,      U004D,      U00B5, VoidSymbol ] }; // m M µ (L3: micro symbol)
+    key <AB08> { [      U002C,      U003C, VoidSymbol,      U2423 ] }; // , < L3 ␣ (L4: visible space mark)
+    key <AB09> { [      U002E,      U003E,      U2026,      U00B7 ] }; // . > … · (L3: ellipsis) (L4: middle dot | tuldok sa pagpapantig)
+    key <AB10> { [      U002F,      U003F, VoidSymbol,      U00BF ] }; // / ? L3 ¿
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // Modifiers
+    include "level3(ralt_switch)" // RAlt/AltGr or <LVL3> key (see: /X11/xkb/symbols/level3)
+  };
+// END: Philippines Unicode Keyboard Layout - QWERTY
+
+// BGN: Philippines Unicode Keyboard Layout - Colemak
+  //
+  // Code license: MIT License
+  // Layout license: Creative Commons Attribution (CC BY) 4.0 International by JC John Sese Cuneta
+  //   * First released: 2010
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Based on: Colemak as of 2023-02-05
+  //   * https://colemak.com
+  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "colemak" {
+    name[Group1] = "Filipino, English (Philippines, Colemak)";
+
+    // NUMERIC row
+    include "ph(numeric-row)"
+
+    // TOP row
+    key <AD01> { [      U0071,      U0051, VoidSymbol, VoidSymbol ] }; // q Q
+    key <AD02> { [      U0077,      U0057, VoidSymbol,      U20A9 ] }; // w W L3 ₩
+    key <AD03> { [      U0066,      U0046,     U1F12F, VoidSymbol ] }; // f F 🄯 (L3: copyleft)
+    key <AD04> { [      U0070,      U0050, VoidSymbol,      U20B1 ] }; // p P L3 ₱
+    key <AD05> { [      U0067,      U0047, VoidSymbol, VoidSymbol ] }; // g G
+    key <AD06> { [      U006A,      U004A, VoidSymbol, VoidSymbol ] }; // j J
+    key <AD07> { [      U006C,      U004C, VoidSymbol, VoidSymbol ] }; // l L
+    key <AD08> { [      U0075,      U0055, VoidSymbol, VoidSymbol ] }; // u U
+    key <AD09> { [      U0079,      U0059, VoidSymbol,      U00A5 ] }; // y Y L3 ¥
+    key <AD10> { [      U003B,      U003A,      U0304,      U035E ] }; // ; : ◌̄ ◌͞ (L3: combining macron | tuldik pahaba) (L4: combining double macron | tuldik pahaba)
+    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
+    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+    key <BKSL> { [      U005C,      U007C,      U0259,      U018F ] }; // \ | ə Ə
+
+    // HOME row
+    key <AC01> { [      U0061,      U0041, VoidSymbol, VoidSymbol ] }; // a A
+    key <AC02> { [      U0072,      U0052,      U00AE,      U00B6 ] }; // r R ® ¶ (L4: paragraph mark)
+    key <AC03> { [      U0073,      U0053,     U1F6C8,      U00A7 ] }; // s S 🛈 § (L3: circled source mark) (L4: section mark)
+    key <AC04> { [      U0074,      U0054,      U2122, VoidSymbol ] }; // t T ™
+    key <AC05> { [      U0064,      U0044, VoidSymbol, VoidSymbol ] }; // d D
+    key <AC06> { [      U0068,      U0048, VoidSymbol, VoidSymbol ] }; // h H
+    key <AC07> { [      U006E,      U004E,      U00F1,      U00D1 ] }; // n N ñ Ñ
+    key <AC08> { [      U0065,      U0045, VoidSymbol, VoidSymbol ] }; // e E
+    key <AC09> { [      U0069,      U0049,      U2018,      U201C ] }; // i I ‘ “
+    key <AC10> { [      U006F,      U004F,      U2019,      U201D ] }; // o O ’ ”
+    key <AC11> { [      U0027,      U0022,      U0301,      U0308 ] }; // ' " ◌́ ◌̈ (L3: combining acute | tuldik pahilis) (L4: combining dieresis | tuldik patuldok)
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+    key <AB01> { [      U007A,      U005A, VoidSymbol, VoidSymbol ] }; // z Z
+    key <AB02> { [      U0078,      U0058, VoidSymbol, VoidSymbol ] }; // x X
+    key <AB03> { [      U0063,      U0043,      U00A9,      U339D ] }; // c C © ㎝ (L4: centimeter symbol)
+    key <AB04> { [      U0076,      U0056, VoidSymbol, VoidSymbol ] }; // v V
+    key <AB05> { [      U0062,      U0042, VoidSymbol, VoidSymbol ] }; // b B
+    key <AB06> { [      U006B,      U004B, VoidSymbol,      U339E ] }; // k K L3 ㎞ (L4: kilometer symbol)
+    key <AB07> { [      U006D,      U004D,      U00B5, VoidSymbol ] }; // m M µ (L3: micro symbol)
+    key <AB08> { [      U002C,      U003C, VoidSymbol,      U2423 ] }; // , < L3 ␣ (L4: visible space mark)
+    key <AB09> { [      U002E,      U003E,      U2026,      U00B7 ] }; // . > … · (L3: ellipsis) (L4: middle dot | tuldok sa pagpapantig)
+    key <AB10> { [      U002F,      U003F, VoidSymbol,      U00BF ] }; // / ? L3 ¿
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // Modifiers
+    include "level3(ralt_switch)" // RAlt/AltGr or <LVL3> key (see: /X11/xkb/symbols/level3)
+  };
+// END: Philippines Unicode Keyboard Layout - Colemak
+
+// BGN: Philippines Unicode Keyboard Layout - Colemak-DH / Colemak-DHm
+  //
+  // Code license: MIT License
+  // Layout license: Creative Commons Attribution (CC BY) 4.0 International by JC John Sese Cuneta
+  //   * First released: 2010
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Based on: Colemak-DH as of 2023-02-05
+  //   * https://colemakmods.github.io/mod-dh/
+  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "colemak-dh" {
+    name[Group1] = "Filipino, English (Philippines, Colemak-DH)";
+
+    include "ph(colemak)"
+
+    // TOP row
+    key <AD05> { [      U0062,      U0042, VoidSymbol, VoidSymbol ] }; // b B
+
+    // HOME row
+    key <AC05> { [      U0067,      U0047, VoidSymbol, VoidSymbol ] }; // g G
+    key <AC06> { [      U006D,      U004D,      U00B5, VoidSymbol ] }; // m M µ (L3: micro symbol)
+
+    // BOTTOM row
+    key <AB01> { [      U0078,      U0058, VoidSymbol, VoidSymbol ] }; // x X
+    key <AB02> { [      U0063,      U0043,      U00A9,      U339D ] }; // c C © ㎝ (L4: centimeter symbol)
+    key <AB03> { [      U0064,      U0044, VoidSymbol, VoidSymbol ] }; // d D
+    key <AB05> { [      U007A,      U005A, VoidSymbol, VoidSymbol ] }; // z Z
+    key <AB07> { [      U0068,      U0048, VoidSymbol, VoidSymbol ] }; // h H
+
+    // Modifiers
+    include "level3(ralt_switch)" // RAlt/AltGr or <LVL3> key (see: /X11/xkb/symbols/level3)
+  };
+// END: Philippines Unicode Keyboard Layout - Colemak-DH / Colemak-DHm
+
+// BGN: Philippines Unicode Keyboard Layout - Capewell-QWERF2007
+  //
+  // Code license: MIT License
+  // Layout license: Creative Commons Attribution (CC BY) 4.0 International by JC John Sese Cuneta
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Based on: Capewell-QWERF2007 as of 2023-02-06
+  //   * http://www.michaelcapewell.com/projects/keyboard/index.htm#The_QWERF_Layout
+  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "capewell-qwerf2007" {
+    name[Group1] = "Filipino, English (Philippines, Capewell-QWERF2007)";
+
+    // NUMERIC row
+    include "ph(numeric-row)"
+
+    // TOP row
+    key <AD01> { [      U0071,      U0051, VoidSymbol, VoidSymbol ] }; // q Q
+    key <AD02> { [      U0077,      U0057, VoidSymbol,      U20A9 ] }; // w W L3 ₩
+    key <AD03> { [      U0065,      U0045, VoidSymbol, VoidSymbol ] }; // e E
+    key <AD04> { [      U0072,      U0052,      U00AE,      U00B6 ] }; // r R ® ¶ (L4: paragraph mark)
+    key <AD05> { [      U0066,      U0046,     U1F12F, VoidSymbol ] }; // f F 🄯 (L3: copyleft)
+    key <AD06> { [      U006A,      U004A, VoidSymbol, VoidSymbol ] }; // j J
+    key <AD07> { [      U0079,      U0059, VoidSymbol,      U00A5 ] }; // y Y L3 ¥
+    key <AD08> { [      U006C,      U004C, VoidSymbol, VoidSymbol ] }; // l L
+    key <AD09> { [      U006B,      U004B, VoidSymbol,      U339E ] }; // k K L3 ㎞ (L4: kilometer symbol)
+    key <AD10> { [      U003B,      U003A,      U0304,      U035E ] }; // ; : ◌̄ ◌͞ (L3: combining macron | tuldik pahaba) (L4: combining double macron | tuldik pahaba)
+    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
+    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+    key <BKSL> { [      U005C,      U007C,      U0259,      U018F ] }; // \ | ə Ə
+
+    // HOME row
+    key <AC01> { [      U0061,      U0041, VoidSymbol, VoidSymbol ] }; // a A
+    key <AC02> { [      U0073,      U0053,     U1F6C8,      U00A7 ] }; // s S 🛈 § (L3: circled source mark) (L4: section mark)
+    key <AC03> { [      U0064,      U0044, VoidSymbol, VoidSymbol ] }; // d D
+    key <AC04> { [      U0074,      U0054,      U2122, VoidSymbol ] }; // t T ™
+    key <AC05> { [      U0067,      U0047, VoidSymbol, VoidSymbol ] }; // g G
+    key <AC06> { [      U0068,      U0048, VoidSymbol, VoidSymbol ] }; // h H
+    key <AC07> { [      U0075,      U0055, VoidSymbol, VoidSymbol ] }; // u U
+    key <AC08> { [      U006F,      U004F,      U2018,      U201C ] }; // o O ‘ “
+    key <AC09> { [      U0069,      U0049,      U2019,      U201D ] }; // i I ’ ”
+    key <AC10> { [      U0070,      U0050, VoidSymbol,      U20B1 ] }; // p P L3 ₱
+    key <AC11> { [      U0027,      U0022,      U0301,      U0308 ] }; // ' " ◌́ ◌̈ (L3: combining acute | tuldik pahilis) (L4: combining dieresis | tuldik patuldok)
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+    key <AB01> { [      U007A,      U005A, VoidSymbol, VoidSymbol ] }; // z Z
+    key <AB02> { [      U0078,      U0058, VoidSymbol, VoidSymbol ] }; // x X
+    key <AB03> { [      U0063,      U0043,      U00A9,      U339D ] }; // c C © ㎝ (L4: centimeter symbol)
+    key <AB04> { [      U0076,      U0056, VoidSymbol, VoidSymbol ] }; // v V
+    key <AB05> { [      U0062,      U0042, VoidSymbol, VoidSymbol ] }; // b B
+    key <AB06> { [      U006E,      U004E,      U00F1,      U00D1 ] }; // n N ñ Ñ
+    key <AB07> { [      U006D,      U004D,      U00B5, VoidSymbol ] }; // m M µ (L3: micro symbol)
+    key <AB08> { [      U002C,      U003C, VoidSymbol,      U2423 ] }; // , < L3 ␣ (L4: visible space mark)
+    key <AB09> { [      U002E,      U003E,      U2026,      U00B7 ] }; // . > … · (L3: ellipsis) (L4: middle dot | tuldok sa pagpapantig)
+    key <AB10> { [      U002F,      U003F, VoidSymbol,      U00BF ] }; // / ? L3 ¿
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // Modifiers
+    include "level3(ralt_switch)" // RAlt/AltGr or <LVL3> key (see: /X11/xkb/symbols/level3)
+  };
+// END: Philippines Unicode Keyboard Layout - Capewell-QWERF2007
+
+// BGN: Philippines Unicode Keyboard Layout - Capewell-QWERF2006
+  //
+  // Code license: MIT License
+  // Layout license: Creative Commons Attribution (CC BY) 4.0 International by JC John Sese Cuneta
+  //   * First released: 2010
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Based on: Capewell-QWERF2006 as of 2023-02-06
+  //   * http://www.michaelcapewell.com/projects/keyboard/index.htm#The_QWERF_Layout
+  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "capewell-qwerf2006" {
+    name[Group1] = "Filipino, English (Philippines, Capewell-QWERF2006)";
+
+    include "ph(capewell-qwerf2007)"
+
+    // TOP row
+    key <AD08> { [      U006B,      U004B, VoidSymbol,      U339E ] }; // k K L3 ㎞ (L4: kilometer symbol)
+    key <AD09> { [      U006C,      U004C, VoidSymbol, VoidSymbol ] }; // l L
+
+    // HOME row
+    key <AC08> { [      U0069,      U0049,      U2018,      U201C ] }; // i I ‘ “
+    key <AC09> { [      U006F,      U004F,      U2019,      U201D ] }; // o O ’ ”
+
+    // Modifiers
+    include "level3(ralt_switch)" // RAlt/AltGr or <LVL3> key (see: /X11/xkb/symbols/level3)
+  };
+// END: Philippines Unicode Keyboard Layout - Capewell-QWERF2006
+
+// BGN: Philippines Unicode Keyboard Layout - Dvorak
+  //
+  // Code license: MIT License
+  // Layout license: Creative Commons Attribution (CC BY) 4.0 International by JC John Sese Cuneta
+  //   * First released: 2010
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Based on: Dvorak US as of 2023-02-06
+  //   * https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
+  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "dvorak" {
+    name[Group1] = "Filipino, English (Philippines, Dvorak)";
+
+    // NUMERIC row
+    include "ph(numeric-row)"
+
+    // NUMERIC row
+    key <AE11> { [      U005B,      U007B,      U2013,      U2012, VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
+    key <AE12> { [      U005D,      U007D,      U2014,      U2015, VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+
+    // TOP row
+    key <AD01> { [      U0027,      U0022,      U0301,      U0308 ] }; // ' " ◌́ ◌̈ (L3: combining acute | tuldik pahilis) (L4: combining dieresis | tuldik patuldok)
+    key <AD02> { [      U002C,      U003C, VoidSymbol,      U2423 ] }; // , < L3 ␣ (L4: visible space mark)
+    key <AD03> { [      U002E,      U003E,      U2026,      U00B7 ] }; // . > … · (L3: ellipsis) (L4: middle dot | tuldok sa pagpapantig)
+    key <AD04> { [      U0070,      U0050, VoidSymbol,      U20B1 ] }; // p P L3 ₱
+    key <AD05> { [      U0079,      U0059, VoidSymbol,      U00A5 ] }; // y Y L3 ¥
+    key <AD06> { [      U0066,      U0046,     U1F12F, VoidSymbol ] }; // f F 🄯 (L3: copyleft)
+    key <AD07> { [      U0067,      U0047, VoidSymbol, VoidSymbol ] }; // g G
+    key <AD08> { [      U0063,      U0043,      U00A9,      U339D ] }; // c C © ㎝ (L4: centimeter symbol)
+    key <AD09> { [      U0072,      U0052,      U00AE,      U00B6 ] }; // r R ® ¶ (L4: paragraph mark)
+    key <AD10> { [      U006C,      U004C, VoidSymbol, VoidSymbol ] }; // l L
+    key <AD11> { [      U002F,      U003F, VoidSymbol,      U00BF ] }; // / ? L3 ¿
+    key <AD12> { [      U003D,      U002B,      U00F7,      U00D7 ] }; // = + ÷ ×
+    key <BKSL> { [      U005C,      U007C,      U0259,      U018F ] }; // \ | ə Ə
+
+    // HOME row
+    key <AC01> { [      U0061,      U0041,      U2018,      U201C ] }; // a A ‘ “
+    key <AC02> { [      U006F,      U004F,      U2019,      U201D ] }; // o O ’ ”
+    key <AC03> { [      U0065,      U0045, VoidSymbol, VoidSymbol ] }; // e E
+    key <AC04> { [      U0075,      U0055, VoidSymbol, VoidSymbol ] }; // u U
+    key <AC05> { [      U0069,      U0049, VoidSymbol, VoidSymbol ] }; // i I
+    key <AC06> { [      U0064,      U0044, VoidSymbol, VoidSymbol ] }; // d D
+    key <AC07> { [      U0068,      U0048, VoidSymbol, VoidSymbol ] }; // h H
+    key <AC08> { [      U0074,      U0054,      U2122, VoidSymbol ] }; // t T ™
+    key <AC09> { [      U006E,      U004E,      U00F1,      U00D1 ] }; // n N ñ Ñ
+    key <AC10> { [      U0073,      U0053,     U1F6C8,      U00A7 ] }; // s S 🛈 § (L3: circled source mark) (L4: section mark)
+    key <AC11> { [      U002D,      U005F, VoidSymbol, VoidSymbol ] }; // - _
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+    key <AB01> { [      U003B,      U003A,      U0304,      U035E ] }; // ; : ◌̄ ◌͞ (L3: combining macron | tuldik pahaba) (L4: combining double macron | tuldik pahaba)
+    key <AB02> { [      U0071,      U0051, VoidSymbol, VoidSymbol ] }; // q Q
+    key <AB03> { [      U006A,      U004A, VoidSymbol, VoidSymbol ] }; // j J
+    key <AB04> { [      U006B,      U004B, VoidSymbol,      U339E ] }; // k K L3 ㎞ (L4: kilometer symbol)
+    key <AB05> { [      U0078,      U0058, VoidSymbol, VoidSymbol ] }; // x X
+    key <AB06> { [      U0062,      U0042, VoidSymbol, VoidSymbol ] }; // b B
+    key <AB07> { [      U006D,      U004D,      U00B5, VoidSymbol ] }; // m M µ (L3: micro symbol)
+    key <AB08> { [      U0077,      U0057, VoidSymbol,      U20A9 ] }; // w W L3 ₩
+    key <AB09> { [      U0076,      U0056, VoidSymbol, VoidSymbol ] }; // v V
+    key <AB10> { [      U007A,      U005A, VoidSymbol, VoidSymbol ] }; // z Z
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol ] }; // (use what is in the fallback layout of the OS)
+
+    // Modifiers
+    include "level3(ralt_switch)" // RAlt/AltGr or <LVL3> key (see: /X11/xkb/symbols/level3)
+  };
+// END: Philippines Unicode Keyboard Layout - Dvorak
+
+// BGN: Philippines Unicode Keyboard Layout - Capewell-Dvorak / C-Dvorak
+  //
+  // Code license: MIT License
+  // Layout license: Creative Commons Attribution (CC BY) 4.0 International by JC John Sese Cuneta
+  //   * First released: 2010
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Based on: Capewell-Dvorak as of 2023-02-06
+  //   * http://www.michaelcapewell.com/projects/keyboard/index.htm#The_Capewell-Dvorak_Layout
+  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "capewell-dvorak" {
+    name[Group1] = "Filipino, English (Philippines, Capewell-Dvorak)";
+
+    include "ph(dvorak)"
+
+    // TOP row
+    key <AD06> { [      U0071,      U0051, VoidSymbol, VoidSymbol ] }; // q Q
+    key <AD07> { [      U0066,      U0046,     U1F12F, VoidSymbol ] }; // f F 🄯 (L3: copyleft)
+    key <AD08> { [      U0067,      U0047, VoidSymbol, VoidSymbol ] }; // g G
+    key <AD10> { [      U006B,      U004B, VoidSymbol,      U339E ] }; // k K L3 ㎞ (L4: kilometer symbol)
+
+    // HOME row
+    key <AC01> { [      U006F,      U004F,      U2018,      U201C ] }; // o O ‘ “
+    key <AC02> { [      U0061,      U0041,      U2019,      U201D ] }; // a A ’ ”
+    key <AC04> { [      U0069,      U0049, VoidSymbol, VoidSymbol ] }; // i I
+    key <AC05> { [      U0075,      U0055, VoidSymbol, VoidSymbol ] }; // u U
+
+    // BOTTOM row
+    key <AB01> { [      U007A,      U005A, VoidSymbol, VoidSymbol ] }; // z Z
+    key <AB02> { [      U0078,      U0058, VoidSymbol, VoidSymbol ] }; // x X
+    key <AB03> { [      U0063,      U0043,      U00A9,      U339D ] }; // c C © ㎝ (L4: centimeter symbol)
+    key <AB04> { [      U0076,      U0056, VoidSymbol, VoidSymbol ] }; // v V
+    key <AB05> { [      U006A,      U004A, VoidSymbol, VoidSymbol ] }; // j J
+    key <AB06> { [      U006C,      U004C, VoidSymbol, VoidSymbol ] }; // l L
+    key <AB09> { [      U0062,      U0042, VoidSymbol, VoidSymbol ] }; // b B
+    key <AB10> { [      U003B,      U003A,      U0304,      U035E ] }; // ; : ◌̄ ◌͞ (L3: combining macron | tuldik pahaba) (L4: combining double macron | tuldik pahaba)
+
+    // Modifiers
+    include "level3(ralt_switch)" // RAlt/AltGr or <LVL3> key (see: /X11/xkb/symbols/level3)
+  };
+// END: Philippines Unicode Keyboard Layout - Capewell-Dvorak / C-Dvorak
+
+
+// BGN: Layouts with Cryptocoins in Level7 and Level8
+  // If the first keyboard layout does not have: include "level5(rctrl_switch)"
+  //   this will not work. For some reason, X11 is using the modifiers in
+  //   the first keyboard layout set in the system.
+  //
+  // Workaround: set a layout with a level5 modifier as your system's
+  //   first keyboard layout. Note: I have not tested what will happen if the
+  //   first keyboard layout's level5 modifier is not: rctrl_switch. The system
+  //   might end up with multiple level5 modifiers.
+  //
+  partial alphanumeric_keys
+  xkb_symbols "basic-cryptocoin" {
+    name[Group1] = "Filipino, English (Philippines, Cryptocoin)";
+
+    include "ph(basic)"
+
+    // Addons
+    include "ph(cryptocoin)"
+
+    // Modifiers
+    include "level5(rctrl_switch)" // RControl or <MDSW> key (see: /X11/xkb/symbols/level5)
+  };
+
+  partial alphanumeric_keys
+  xkb_symbols "colemak-cryptocoin" {
+    name[Group1] = "Filipino, English (Philippines, Colemak, Cryptocoin)";
+
+    include "ph(colemak)"
+
+    // Addons
+    include "ph(cryptocoin)"
+
+    // Modifiers
+    include "level5(rctrl_switch)" // RControl or <MDSW> key (see: /X11/xkb/symbols/level5)
+  };
+
+  partial alphanumeric_keys
+  xkb_symbols "colemak-dh-cryptocoin" {
+    name[Group1] = "Filipino, English (Philippines, Colemak-DH, Cryptocoin)";
+
+    include "ph(colemak-dh)"
+
+    // Addons
+    include "ph(cryptocoin)"
+
+    // Modifiers
+    include "level5(rctrl_switch)" // RControl or <MDSW> key (see: /X11/xkb/symbols/level5)
+  };
+
+  partial alphanumeric_keys
+  xkb_symbols "capewell-qwerf2007-cryptocoin" {
+    name[Group1] = "Filipino, English (Philippines, Capewell-QWERF2007, Cryptocoin)";
+
+    include "ph(capewell-qwerf2007)"
+
+    // Addons
+    include "ph(cryptocoin)"
+
+    // Modifiers
+    include "level5(rctrl_switch)" // RControl or <MDSW> key (see: /X11/xkb/symbols/level5)
+  };
+
+  partial alphanumeric_keys
+  xkb_symbols "capewell-qwerf2006-cryptocoin" {
+    name[Group1] = "Filipino, English (Philippines, Capewell-QWERF2006-Cryptocoin)";
+
+    include "ph(capewell-qwerf2006)"
+
+    // Addons
+    include "ph(cryptocoin)"
+
+    // Modifiers
+    include "level5(rctrl_switch)" // RControl or <MDSW> key (see: /X11/xkb/symbols/level5)
+  };
+
+  partial alphanumeric_keys
+  xkb_symbols "dvorak-cryptocoin" {
+    name[Group1] = "Filipino, English (Philippines, Dvorak, Cryptocoin)";
+
+    include "ph(dvorak)"
+
+    // Addons
+    include "ph(cryptocoin)"
+
+    // Modifiers
+    include "level5(rctrl_switch)" // RControl or <MDSW> key (see: /X11/xkb/symbols/level5)
+  };
+
+  partial alphanumeric_keys
+  xkb_symbols "capewell-dvorak-cryptocoin" {
+    name[Group1] = "Filipino, English (Philippines, Capewell-Dvorak, Cryptocoin)";
+
+    include "ph(capewell-dvorak)"
+
+    // Addons
+    include "ph(cryptocoin)"
+
+    // Modifiers
+    include "level5(rctrl_switch)" // RControl or <MDSW> key (see: /X11/xkb/symbols/level5)
+  };
+// END: Layouts with Cryptocoins in Level7 and Level8
+
+
+// BGN: NUMERIC row
+  //
+  // Included in:
+  //   1. QWERTY
+  //   2. Colemak
+  //   3. Colemak-DH
+  //   4. Capewell-QWERF2007
+  //   5. Capewell-QWERF2006
+  //   6. Dvorak
+  //   7. Capewell-Dvorak
+  //
+  partial alphanumeric_keys
+  xkb_symbols "numeric-row" {
+
+    // NUMERIC row
+    // TLDE is AE00 in some physical keyboards (e.g. OLPC)
+    key <TLDE> { [      U0060,      U007E,      U0300,      U0303 ] }; // ` ~ ◌̀ ◌̃ (L3: combining grave | tuldik paiwa) (L4: combining tilde)
+    key <AE01> { [      U0031,      U0021,      U0360,      U00A1 ] }; // 1 ! ◌͠ ¡ (L3: combining double tilde) (L4: inverted exclamation point)
+    key <AE02> { [      U0032,      U0040,      U2153, VoidSymbol ] }; // 2 @ ⅓
+    key <AE03> { [      U0033,      U0023,      U2154,      U00A3 ] }; // 3 # ⅔ £
+    key <AE04> { [      U0034,      U0024,      U00BC,      U20AC ] }; // 4 $ ¼ €
+    key <AE05> { [      U0035,      U0025,      U00BD,      U00B0 ] }; // 5 % ½ ° (L4: degree symbol)
+    key <AE06> { [      U0036,      U005E,      U00BE,      U0302 ] }; // 6 ^ ¾ ◌̂ (L4: combining circumflex | tuldik pakupya)
+    key <AE07> { [      U0037,      U0026, VoidSymbol,      U2103 ] }; // 7 & L3 ℃
+    key <AE08> { [      U0038,      U002A, VoidSymbol,      U2109 ] }; // 8 * L3 ℉
+    key <AE09> { [      U0039,      U0028,      U2039,      U00AB ] }; // 9 ( ‹ « (L3: Asian-Latin single open quote mark) (L4: Asian-Latin double open quote mark)
+    key <AE10> { [      U0030,      U0029,      U203A,      U00BB ] }; // 0 ) › » (L3: Asian-Latin single close quote mark) (L4: Asian Latin double close quote mark)
+    key <AE11> { [      U002D,      U005F, VoidSymbol, VoidSymbol ] }; // - _
+    key <AE12> { [      U003D,      U002B,      U00F7,      U00D7 ] }; // = + ÷ ×
+    // AE13 is in some physical keyboards (e.g. Japanese)
+    key <AE13> { [      U00A5,      U007C,      U20B1, VoidSymbol ] }; // ¥ | ₱
+  };
+// END: NUMERIC row
+
+// BGN: Cryptocoin
+  //
+  // Included in:
+  //   1. QWERTY-cryptocoin
+  //   2. Colemak-cryptocoin
+  //   3. Colemak-DH-cryptocoin
+  //   4. Capewell-QWERF2007-cryptocoin
+  //   5. Capewell-QWERF2006-cryptocoin
+  //   6. Dvorak-cryptocoin
+  //   7. Capewell-Dvorak-cryptocoin
+  //
+  partial
+  xkb_symbols "cryptocoin" {
+    key.type[Group1] = "LOCAL_EIGHT_LEVEL"; // inherited
+
+    // NUMERIC row
+    key <AE04> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,      U20AE, VoidSymbol ] }; // L5 L6 ₮ (L7: USDT)
+    key <AE06> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,      U2715, VoidSymbol ] }; // L5 L6 ✕ (L7: XRP)
+    key <AE07> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,     U1F680, VoidSymbol ] }; // L5 L6 🚀 (L7: XLM)
+    key <AE08> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,      U25CF, VoidSymbol ] }; // L5 L6 ● (L7: Polkadot)
+    key <AE09> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,      U039E,      U03BE ] }; // L5 L6 Ξ ξ (L7: Ethereum) (L8: Ethereum Classic)
+    key <AE10> { [   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol,      U20BF,      U0243 ] }; // L5 L6 ₿ Ƀ (L7: Bitcoin) (L8: Bitcoin Cash)
+  };
+// END: Cryptocoin

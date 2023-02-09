@@ -1,0 +1,474 @@
+// BGN: Baybayin-Buhid Unicode Keyboard Layout - QWERTY
+  // ISO tag for Baybayin-Buhid script:
+  //   * Buhd (U+1740–U+175F) - https://www.unicode.org/charts/PDF/U1740.pdf)
+  //
+  // Code license: MIT License
+  // Layout license: Public Domain (CC0 1.0 Universal by JC John Sese Cuneta)
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  default partial alphanumeric_keys
+  xkb_symbols "basic" {
+    name[Group1] = "Buhid (Philippines, Baybayin)";
+    key.type[Group1] = "TWO_LEVEL"; // inherited
+
+    // NUMERIC row
+    include "ph-buhd(numeric-row)"
+
+    // TOP row
+    key <AD01> { [ VoidSymbol, VoidSymbol ] }; // (Q)
+    key <AD02> { [      U174F, VoidSymbol ] }; // (W) ᝏ (LETTER WA)
+    key <AD03> { [      U1752,      U1741 ] }; // (E) ᝒ (VOWEL E) ᝁ (LETTER E)
+    key <AD04> { [      U174D, VoidSymbol ] }; // (R) ᝍ (LETTER RA)
+    key <AD05> { [      U1746, VoidSymbol ] }; // (T) ᝆ (LETTER TA)
+    key <AD06> { [      U174C, VoidSymbol ] }; // (Y) ᝌ (LETTER YA)
+    key <AD07> { [      U1753,      U1742 ] }; // (U) ᝓ(VOWEL U) ᝂ (LETTER U)
+    key <AD08> { [      U1752,      U1741 ] }; // (I) ᝒ (VOWEL I) ᝁ (LETTER I)
+    key <AD09> { [      U1753,      U1742 ] }; // (O) ᝓ (VOWEL O) ᝂ (LETTER O)
+    key <AD10> { [      U1749, VoidSymbol ] }; // (P) ᝉ (LETTER PA)
+    key <AD11> { [ VoidSymbol, VoidSymbol ] }; // ([)
+    key <AD12> { [ VoidSymbol, VoidSymbol ] }; // (])
+    key <BKSL> { [ VoidSymbol, VoidSymbol ] }; // (\)
+
+    // HOME row
+    key <AC01> { [      U1740, VoidSymbol ] }; // (A) ᝀ (LETTER A)
+    key <AC02> { [      U1750, VoidSymbol ] }; // (S) ᝐ (LETTER SA)
+    key <AC03> { [      U1747, VoidSymbol ] }; // (D) ᝇ (LETTER DA)
+    key <AC04> { [ VoidSymbol, VoidSymbol ] }; // (F)
+    key <AC05> { [      U1744, VoidSymbol ] }; // (G) ᝄ (LETTER GA)
+    key <AC06> { [      U1751, VoidSymbol ] }; // (H) ᝑ (LETTER HA)
+    key <AC07> { [ VoidSymbol, VoidSymbol ] }; // (J)
+    key <AC08> { [      U1743, VoidSymbol ] }; // (K) ᝃ (LETTER KA)
+    key <AC09> { [      U174E, VoidSymbol ] }; // (L) ᝎ (LETTER LA)
+    key <AC10> { [ VoidSymbol, VoidSymbol ] }; // (;)
+    key <AC11> { [ VoidSymbol, VoidSymbol ] }; // (')
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [ VoidSymbol, VoidSymbol ] }; // ()
+    key <AB01> { [ VoidSymbol, VoidSymbol ] }; // (Z)
+    key <AB02> { [ VoidSymbol, VoidSymbol ] }; // (X)
+    key <AB03> { [ VoidSymbol, VoidSymbol ] }; // (C)
+    key <AB04> { [ VoidSymbol, VoidSymbol ] }; // (V)
+    key <AB05> { [      U174A, VoidSymbol ] }; // (B) ᝊ (LETTER BA)
+    key <AB06> { [      U1748,      U1745 ] }; // (N) ᝈ (LETTER NA) ᝅ (LETTER NGA)
+    key <AB07> { [      U174B, VoidSymbol ] }; // (M) ᝋ (LETTER MA)
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    include "ph-buhd(punctuations)"
+  };
+// END: Baybayin-Buhid Unicode Keyboard Layout - QWERTY
+
+// BGN: Baybayin-Buhid Unicode Keyboard Layout - Colemak
+  // ISO tag for Baybayin-Buhid script:
+  //   * Buhd (U+1740–U+175F) - https://www.unicode.org/charts/PDF/U1740.pdf)
+  //
+  // Code license: MIT License
+  // Layout license: Public Domain (CC0 1.0 Universal by JC John Sese Cuneta)
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "colemak" {
+    name[Group1] = "Buhid (Philippines, Baybayin, Colemak)";
+    key.type[Group1] = "TWO_LEVEL"; // inherited
+
+    // NUMERIC row
+    include "ph-buhd(numeric-row)"
+
+    // TOP row
+    key <AD01> { [ VoidSymbol, VoidSymbol ] }; // (Q)
+    key <AD02> { [      U174F, VoidSymbol ] }; // (W) ᝏ (LETTER WA)
+    key <AD03> { [ VoidSymbol, VoidSymbol ] }; // (F)
+    key <AD04> { [      U1749, VoidSymbol ] }; // (P) ᝉ (LETTER PA)
+    key <AD05> { [      U1744, VoidSymbol ] }; // (G) ᝄ (LETTER GA)
+    key <AD06> { [ VoidSymbol, VoidSymbol ] }; // (J)
+    key <AD07> { [      U174E, VoidSymbol ] }; // (L) ᝎ (LETTER LA)
+    key <AD08> { [      U1753,      U1742 ] }; // (U) ᝓ(VOWEL U) ᝂ (LETTER U)
+    key <AD09> { [      U174C, VoidSymbol ] }; // (Y) ᝌ (LETTER YA)
+    key <AD10> { [ VoidSymbol, VoidSymbol ] }; // (;)
+    key <AD11> { [ VoidSymbol, VoidSymbol ] }; // ([)
+    key <AD12> { [ VoidSymbol, VoidSymbol ] }; // (])
+    key <BKSL> { [ VoidSymbol, VoidSymbol ] }; // (\)
+
+    // HOME row
+    key <AC01> { [      U1740, VoidSymbol ] }; // (A) ᝀ (LETTER A)
+    key <AC02> { [      U174D, VoidSymbol ] }; // (R) ᝍ (LETTER RA)
+    key <AC03> { [      U1750, VoidSymbol ] }; // (S) ᝐ (LETTER SA)
+    key <AC04> { [      U1746, VoidSymbol ] }; // (T) ᝆ (LETTER TA)
+    key <AC05> { [      U1747, VoidSymbol ] }; // (D) ᝇ (LETTER DA)
+    key <AC06> { [      U1751, VoidSymbol ] }; // (H) ᝑ (LETTER HA)
+    key <AC07> { [      U1748,      U1745 ] }; // (N) ᝈ (LETTER NA) ᝅ (LETTER NGA)
+    key <AC08> { [      U1752,      U1741 ] }; // (E) ᝒ (VOWEL E) ᝁ (LETTER E)
+    key <AC09> { [      U1752,      U1741 ] }; // (I) ᝒ (VOWEL I) ᝁ (LETTER I)
+    key <AC10> { [      U1753,      U1742 ] }; // (O) ᝓ (VOWEL O) ᝂ (LETTER O)
+    key <AC11> { [ VoidSymbol, VoidSymbol ] }; // (')
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [ VoidSymbol, VoidSymbol ] }; // ()
+    key <AB01> { [ VoidSymbol, VoidSymbol ] }; // (Z)
+    key <AB02> { [ VoidSymbol, VoidSymbol ] }; // (X)
+    key <AB03> { [ VoidSymbol, VoidSymbol ] }; // (C)
+    key <AB04> { [ VoidSymbol, VoidSymbol ] }; // (V)
+    key <AB05> { [      U174A, VoidSymbol ] }; // (B) ᝊ (LETTER BA)
+    key <AB06> { [      U1743, VoidSymbol ] }; // (K) ᝃ (LETTER KA)
+    key <AB07> { [      U174B, VoidSymbol ] }; // (M) ᝋ (LETTER MA)
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    include "ph-buhd(punctuations)"
+  };
+// END: Baybayin-Buhid Unicode Keyboard Layout - Colemak
+
+// BGN: Baybayin-Buhid Unicode Keyboard Layout - Colemak-DH / Colemak-DHm
+  // ISO tag for Baybayin-Buhid script:
+  //   * Buhd (U+1740–U+175F) - https://www.unicode.org/charts/PDF/U1740.pdf)
+  //
+  // Code license: MIT License
+  // Layout license: Public Domain (CC0 1.0 Universal by JC John Sese Cuneta)
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "colemak-dh" {
+    name[Group1] = "Buhid (Philippines, Baybayin, Colemak-DH)";
+    key.type[Group1] = "TWO_LEVEL";
+
+    include "ph-buhd(colemak)"
+
+    // TOP row
+    key <AD05> { [      U174A, VoidSymbol ] }; // (B) ᝊ (LETTER BA)
+
+    // HOME row
+    key <AC05> { [      U1744, VoidSymbol ] }; // (G) ᝄ (LETTER GA)
+    key <AC06> { [      U174B, VoidSymbol ] }; // (M) ᝈ (LETTER MA)
+
+    // BOTTOM row
+    key <AB03> { [      U1747, VoidSymbol ] }; // (D) ᝇ (LETTER DA)
+    key <AB05> { [ VoidSymbol, VoidSymbol ] }; // (Z) override 'include'
+    key <AB07> { [      U1751, VoidSymbol ] }; // (H) ᝑ (LETTER HA)
+  };
+// END: Baybayin-Buhid Unicode Keyboard Layout - Colemak-DH / Colemak-DHm
+
+// BGN: Baybayin-Buhid Unicode Keyboard Layout - Capewell-QWERF2007
+  // ISO tag for Baybayin-Buhid script:
+  //   * Buhd (U+1740–U+175F) - https://www.unicode.org/charts/PDF/U1740.pdf)
+  //
+  // Code license: MIT License
+  // Layout license: Public Domain (CC0 1.0 Universal by JC John Sese Cuneta)
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "capewell-qwerf2007" {
+    name[Group1] = "Buhid (Philippines, Baybayin, Capewell-QWERF2007)";
+    key.type[Group1] = "TWO_LEVEL";
+
+    // NUMERIC row
+    include "ph-buhd(numeric-row)"
+
+    // TOP row
+    key <AD01> { [ VoidSymbol, VoidSymbol ] }; // (Q)
+    key <AD02> { [      U174F, VoidSymbol ] }; // (W) ᝏ (LETTER WA)
+    key <AD03> { [      U1752,      U1741 ] }; // (E) ᝒ (VOWEL E) ᝁ (LETTER E)
+    key <AD04> { [      U174D, VoidSymbol ] }; // (R) ᝍ (LETTER RA)
+    key <AD05> { [ VoidSymbol, VoidSymbol ] }; // (F)
+    key <AD06> { [ VoidSymbol, VoidSymbol ] }; // (J)
+    key <AD07> { [      U174C, VoidSymbol ] }; // (Y) ᝌ (LETTER YA)
+    key <AD08> { [      U174E, VoidSymbol ] }; // (L) ᝎ (LETTER LA)
+    key <AD09> { [      U1743, VoidSymbol ] }; // (K) ᝃ (LETTER KA)
+    key <AD10> { [ VoidSymbol, VoidSymbol ] }; // (;)
+    key <AD11> { [ VoidSymbol, VoidSymbol ] }; // ([)
+    key <AD12> { [ VoidSymbol, VoidSymbol ] }; // (])
+    key <BKSL> { [ VoidSymbol, VoidSymbol ] }; // (\)
+
+    // HOME row
+    key <AC01> { [      U1740, VoidSymbol ] }; // (A) ᝀ (LETTER A)
+    key <AC02> { [      U1750, VoidSymbol ] }; // (S) ᝐ (LETTER SA)
+    key <AC03> { [      U1747, VoidSymbol ] }; // (D) ᝇ (LETTER DA)
+    key <AC04> { [      U1746, VoidSymbol ] }; // (T) ᝆ (LETTER TA)
+    key <AC05> { [      U1744, VoidSymbol ] }; // (G) ᝄ (LETTER GA)
+    key <AC06> { [      U1751, VoidSymbol ] }; // (H) ᝑ (LETTER HA)
+    key <AC07> { [      U1753,      U1742 ] }; // (U) ᝓ(VOWEL U) ᝂ (LETTER U)
+    key <AC08> { [      U1753,      U1742 ] }; // (O) ᝓ (VOWEL O) ᝂ (LETTER O)
+    key <AC09> { [      U1752,      U1741 ] }; // (I) ᝒ (VOWEL I) ᝁ (LETTER I)
+    key <AC10> { [      U1749, VoidSymbol ] }; // (P) ᝉ (LETTER PA)
+    key <AC11> { [ VoidSymbol, VoidSymbol ] }; // (')
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [ VoidSymbol, VoidSymbol ] }; // ()
+    key <AB01> { [ VoidSymbol, VoidSymbol ] }; // (Z)
+    key <AB02> { [ VoidSymbol, VoidSymbol ] }; // (X)
+    key <AB03> { [ VoidSymbol, VoidSymbol ] }; // (C)
+    key <AB04> { [ VoidSymbol, VoidSymbol ] }; // (V)
+    key <AB05> { [      U174A, VoidSymbol ] }; // (B) ᝊ (LETTER BA)
+    key <AB06> { [      U1748,      U1745 ] }; // (N) ᝈ (LETTER NA) ᝅ (LETTER NGA)
+    key <AB07> { [      U174B, VoidSymbol ] }; // (M) ᝋ (LETTER MA)
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    include "ph-buhd(punctuations)"
+  };
+// END: Baybayin-Buhid Unicode Keyboard Layout - Capewell-QWERF2007
+
+// BGN: Baybayin-Buhid Unicode Keyboard Layout - Capewell-QWERF2006
+  // ISO tag for Baybayin-Buhid script:
+  //   * Buhd (U+1740–U+175F) - https://www.unicode.org/charts/PDF/U1740.pdf)
+  //
+  // Code license: MIT License
+  // Layout license: Public Domain (CC0 1.0 Universal by JC John Sese Cuneta)
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "capewell-qwerf2006" {
+    name[Group1] = "Buhid (Philippines, Baybayin, Capewell-QWERF2006)";
+    key.type[Group1] = "TWO_LEVEL";
+
+    include "ph-buhd(capewell-qwerf2007)"
+
+    // TOP row
+    key <AD08> { [      U1743, VoidSymbol ] }; // (K) ᝃ (LETTER KA)
+    key <AD09> { [      U174E, VoidSymbol ] }; // (L) ᝎ (LETTER LA)
+
+    // HOME row
+    key <AC08> { [      U1752,      U1741 ] }; // (I) ᝒ (VOWEL I) ᝁ (LETTER I)
+    key <AC09> { [      U1753,      U1742 ] }; // (O) ᝓ (VOWEL O) ᝂ (LETTER O)
+  };
+// END: Baybayin-Buhid Unicode Keyboard Layout - Capewell-QWERF2006
+
+// BGN: Baybayin-Buhid Unicode Keyboard Layout - Dvorak
+  // ISO tag for Baybayin-Buhid script:
+  //   * Buhd (U+1740–U+175F) - https://www.unicode.org/charts/PDF/U1740.pdf)
+  //
+  // Code license: MIT License
+  // Layout license: Public Domain (CC0 1.0 Universal by JC John Sese Cuneta)
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "dvorak" {
+    name[Group1] = "Buhid (Philippines, Baybayin, Dvorak)";
+    key.type[Group1] = "TWO_LEVEL";
+
+    // NUMERIC row
+    include "ph-buhd(numeric-row)"
+
+    // NUMERIC ROW
+    key <AE11> { [ VoidSymbol, VoidSymbol ] };
+    key <AE12> { [ VoidSymbol, VoidSymbol ] };
+
+    // TOP row
+    key <AD01> { [ VoidSymbol, VoidSymbol ] }; // (')
+    key <AD02> { [      U1735, VoidSymbol ] }; // (,) ᜵ (PHILIPPINE SINGLE PUNCTUATION)
+    key <AD03> { [      U1736, VoidSymbol ] }; // (.) ᜶ (PHILIPPINE DOUBLE PUNCTUATION)
+    key <AD04> { [      U1749, VoidSymbol ] }; // (P) ᝉ (LETTER PA)
+    key <AD05> { [      U174C, VoidSymbol ] }; // (Y) ᝌ (LETTER YA)
+    key <AD06> { [ VoidSymbol, VoidSymbol ] }; // (F)
+    key <AD07> { [      U1744, VoidSymbol ] }; // (G) ᝄ (LETTER GA)
+    key <AD08> { [ VoidSymbol, VoidSymbol ] }; // (C)
+    key <AD09> { [      U174D, VoidSymbol ] }; // (R) ᝍ (LETTER RA)
+    key <AD10> { [      U174E, VoidSymbol ] }; // (L) ᝎ (LETTER LA)
+    key <AD11> { [      U1734, VoidSymbol ] }; // (/) ᜴ (MANGYAN PAMUDPOD)
+    key <AD12> { [      U1714, VoidSymbol ] }; // (+) ᜔ (VIRAMA)
+    key <BKSL> { [ VoidSymbol, VoidSymbol ] }; // (\)
+
+    // HOME row
+    key <AC01> { [      U1740, VoidSymbol ] }; // (A) ᝀ (LETTER A)
+    key <AC02> { [      U1753,      U1742 ] }; // (O) ᝓ (VOWEL O) ᝂ (LETTER O)
+    key <AC03> { [      U1752,      U1741 ] }; // (E) ᝒ (VOWEL E) ᝁ (LETTER E)
+    key <AC04> { [      U1753,      U1742 ] }; // (U) ᝓ(VOWEL U) ᝂ (LETTER U)
+    key <AC05> { [      U1752,      U1741 ] }; // (I) ᝒ (VOWEL I) ᝁ (LETTER I)
+    key <AC06> { [      U1747, VoidSymbol ] }; // (D) ᝇ (LETTER DA)
+    key <AC07> { [      U1751, VoidSymbol ] }; // (H) ᝑ (LETTER HA)
+    key <AC08> { [      U1746, VoidSymbol ] }; // (T) ᝆ (LETTER TA)
+    key <AC09> { [      U1748,      U1745 ] }; // (N) ᝈ (LETTER NA) ᝅ (LETTER NGA)
+    key <AC10> { [      U1750, VoidSymbol ] }; // (S) ᝐ (LETTER SA)
+    key <AC11> { [      U1734, VoidSymbol ] }; // (-) ᜴ (MANGYAN PAMUDPOD)
+    // AC12 is in some physical keyboards (e.g. OLPC); usually an alias of <BKSL>
+    //key <AC12> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    // BOTTOM row
+    // AB00 is in some physical keyboards (e.g. ISO-105)
+    //key <AB00> { [ VoidSymbol, VoidSymbol ] }; // ()
+    key <AB01> { [ VoidSymbol, VoidSymbol ] }; // (;)
+    key <AB02> { [ VoidSymbol, VoidSymbol ] }; // (Q)
+    key <AB03> { [ VoidSymbol, VoidSymbol ] }; // (J)
+    key <AB04> { [      U1743, VoidSymbol ] }; // (K) ᝃ (LETTER KA)
+    key <AB05> { [ VoidSymbol, VoidSymbol ] }; // (X)
+    key <AB06> { [      U174A, VoidSymbol ] }; // (B) ᝊ (LETTER BA)
+    key <AB07> { [      U174B, VoidSymbol ] }; // (M) ᝋ (LETTER MA)
+    key <AB08> { [      U174F, VoidSymbol ] }; // (W) ᝏ (LETTER WA)
+    key <AB09> { [ VoidSymbol, VoidSymbol ] }; // (V)
+    key <AB10> { [ VoidSymbol, VoidSymbol ] }; // (Z)
+    // AB11 is in some physical keyboards (e.g. Japanese)
+    //key <AB11> { [ VoidSymbol, VoidSymbol ] }; // ()
+
+    // Not needed for this layout since all related locations moved.
+    //include "ph-buhd(punctuations)"
+  };
+// END: Baybayin-Buhid Unicode Keyboard Layout - Dvorak
+
+// BGN: Baybayin-Buhid Unicode Keyboard Layout - Capewell-Dvorak / C-Dvorak
+  // ISO tag for Baybayin-Buhid script:
+  //   * Buhd (U+1740–U+175F) - https://www.unicode.org/charts/PDF/U1740.pdf)
+  //
+  // Code license: MIT License
+  // Layout license: Public Domain (CC0 1.0 Universal by JC John Sese Cuneta)
+  //   * First released: 2023
+  // Repo: https://codeberg.org/yelosan/unicode-keyboard-layout-philippines
+  //
+  // By: JC John Sese Cuneta (Yelosan Publishing)
+  //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
+  //   * GPG: https://youronly.one/?verify=keyoxide
+  //   * Keybase: https://keybase.io/yukino
+  // For: Ubuntu Philippines LoCo Team and the Filipino people
+  //
+  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
+  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
+  //
+  partial alphanumeric_keys
+  xkb_symbols "capewell-dvorak" {
+    name[Group1] = "Buhid (Philippines, Baybayin, Capewell-Dvorak)";
+    key.type[Group1] = "TWO_LEVEL";
+
+    include "ph-buhd(dvorak)"
+
+    // TOP row
+    key <AD07> { [ VoidSymbol, VoidSymbol ] }; // (F) override 'include'
+    key <AD08> { [      U1744, VoidSymbol ] }; // (G) ᝄ (LETTER GA)
+    key <AD10> { [      U1743, VoidSymbol ] }; // (K) ᝃ (LETTER KA)
+
+    // HOME row
+    key <AC01> { [      U1753,      U1742 ] }; // (O) ᝓ (VOWEL O) ᝂ (LETTER O)
+    key <AC02> { [      U1740, VoidSymbol ] }; // (A) ᝀ (LETTER A)
+    key <AC04> { [      U1752,      U1741 ] }; // (I) ᝒ (VOWEL I) ᝁ (LETTER I)
+    key <AC05> { [      U1753,      U1742 ] }; // (U) ᝓ(VOWEL U) ᝂ (LETTER U)
+
+    // BOTTOM row
+    key <AB04> { [ VoidSymbol, VoidSymbol ] }; // (V) override 'include'
+    key <AB06> { [      U174E, VoidSymbol ] }; // (L) ᝎ (LETTER LA)
+    key <AB09> { [      U174A, VoidSymbol ] }; // (B) ᝊ (LETTER BA)
+  };
+// END: Baybayin-Buhid Unicode Keyboard Layout - Capewell-Dvorak / C-Dvorak
+
+
+// BGN: NUMERIC row
+  //
+  // Included in:
+  //   1. QWERTY
+  //   2. Colemak
+  //   3. Colemak-DH
+  //   4. Capewell-QWERF2007
+  //   5. Capewell-QWERF2006
+  //   6. Dvorak
+  //   7. Capewell-Dvorak
+  //
+  partial alphanumeric_keys
+  xkb_symbols "numeric-row" {
+    key.type[Group1] = "TWO_LEVEL"; // inherited
+
+    // NUMERIC row
+    // TLDE is AE00 in some physical keyboards (e.g. OLPC)
+    key <TLDE> { [ VoidSymbol, VoidSymbol ] };
+    key <AE01> { [ VoidSymbol, VoidSymbol ] };
+    key <AE02> { [ VoidSymbol, VoidSymbol ] };
+    key <AE03> { [ VoidSymbol, VoidSymbol ] };
+    key <AE04> { [ VoidSymbol, VoidSymbol ] };
+    key <AE05> { [ VoidSymbol, VoidSymbol ] };
+    key <AE06> { [ VoidSymbol, VoidSymbol ] };
+    key <AE07> { [ VoidSymbol, VoidSymbol ] };
+    key <AE08> { [ VoidSymbol, VoidSymbol ] };
+    key <AE09> { [ VoidSymbol, VoidSymbol ] };
+    key <AE10> { [ VoidSymbol, VoidSymbol ] };
+    // AE13 is in some physical keyboards (e.g. Japanese)
+    key <AE13> { [ VoidSymbol, VoidSymbol ] };
+  };
+// END: NUMERIC row
+
+// BGN: PUNCTUATIONS
+  //
+  // Included in:
+  //   1. QWERTY
+  //   2. Colemak
+  //   3. Colemak-DH
+  //   4. Capewell-QWERF2007
+  //   5. Capewell-QWERF2006
+  //
+  partial alphanumeric_keys
+  xkb_symbols "punctuations" {
+    key.type[Group1] = "TWO_LEVEL"; // inherited
+
+    // NUMERIC row
+    key <AE11> { [      U1734, VoidSymbol ] }; // (-) ᜴ (MANGYAN PAMUDPOD)
+    key <AE12> { [      U1714, VoidSymbol ] }; // (+) ᜔ (VIRAMA)
+
+    // BOTTOM row
+    key <AB08> { [      U1735, VoidSymbol ] }; // (,) ᜵ (PHILIPPINE SINGLE PUNCTUATION)
+    key <AB09> { [      U1736, VoidSymbol ] }; // (.) ᜶ (PHILIPPINE DOUBLE PUNCTUATION)
+    key <AB10> { [      U1734, VoidSymbol ] }; // (/) ᜴ (MANGYAN PAMUDPOD)
+  };
+// END: PUNCTUATIONS
