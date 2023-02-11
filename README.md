@@ -16,19 +16,21 @@ Aside from the Latin/English script, there are four Baybayin script layouts incl
 
 ### Layouts
 
-1. QWERTY
-1. Colemak [^colemak]
-1. Colemak-DH [^colemak-dh]
-1. Capewell-QWERF2007 [^capewell-qwerf]
-1. Capewell-QWERF2006 [^capewell-qwerf]
-1. Dvorak [^dvorak]
-1. Capewell-Dvorak [^capewell-dvorak]
+1. QWERTY [^layout-qwerty]
+1. Colemak [^layout-colemak]
+1. Colemak-DH [^layout-colemak-dh]
+1. Capewell-QWERF2007 [^layout-capewell-qwerf]
+1. Capewell-QWERF2006 [^layout-capewell-qwerf]
+1. Dvorak [^layout-dvorak]
+1. Capewell-Dvorak [^layout-capewell-dvorak-01] [^layout-capewell-dvorak-02]
 
-[^colemak]: Colemak: [Colemak](https://colemak.com)
-[^colemak-dh]: Colemak Mod-DH: [Colemak-DH](https://colemakmods.github.io/mod-dh/)
-[^capewell-qwerf]: Capewell: [The QWERF Layout](http://www.michaelcapewell.com/projects/keyboard/index.htm#The_QWERF_Layout)
-[^dvorak]: Wikipedia: [Dvorak keyboard layout](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout)
-[^capewell-dvorak]: Capewell: [The Capewell-Dvorak Layout](http://www.michaelcapewell.com/projects/keyboard/index.htm#The_Capewell-Dvorak_Layout)
+[^layout-qwerty]: Wikipedia: [QWERTY](https://en.wikipedia.org/wiki/QWERTY) (archived: [1](https://web.archive.org/web/20230210212522/https://en.wikipedia.org/wiki/QWERTY); [2](https://archive.ph/f5z4Y))
+[^layout-colemak]: Colemak: [Colemak](https://colemak.com) (archived: [1](https://web.archive.org/web/20230210212756/https://colemak.com/); [2](https://archive.ph/4r3GC))
+[^layout-colemak-dh]: Colemak Mod-DH: [Colemak-DH](https://colemakmods.github.io/mod-dh/) (archived: [1](https://web.archive.org/web/20230210212805/https://colemakmods.github.io/mod-dh/); [2](https://archive.ph/QJdgS))
+[^layout-capewell-qwerf]: Capewell: [The QWERF Layout](http://www.michaelcapewell.com/projects/keyboard/#The_QWERF_Layout) (archived: [1](https://web.archive.org/web/20230210213333/http://www.michaelcapewell.com/projects/keyboard/); [2](https://archive.ph/WEGNA))
+[^layout-dvorak]: Wikipedia: [Dvorak Keyboard Layout](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) (archived: [1](https://web.archive.org/web/20230210213414/https://en.wikipedia.org/wiki/Dvorak_keyboard_layout); [2](https://archive.ph/NxHiB))
+[^layout-capewell-dvorak-01]: Capewell: [The Capewell-Dvorak Layout](http://www.michaelcapewell.com/projects/keyboard/#The_Capewell-Dvorak_Layout) (a.k.a. C-Dvorak) (archived: [1](https://web.archive.org/web/20230210213333/http://www.michaelcapewell.com/projects/keyboard/); [2](https://archive.ph/WEGNA))
+[^layout-capewell-dvorak-02]: Capewell: [Development of The Capewell-Dvorak Layout](http://www.michaelcapewell.com/projects/keyboard/layout_capewell-dvorak.htm) (a.k.a. C-Dvorak) (archived: [1](https://web.archive.org/web/20230210214534/http://www.michaelcapewell.com/projects/keyboard/layout_capewell-dvorak.htm); [2](https://archive.ph/zEBB8))
 
 ### Scripts
 
@@ -72,26 +74,28 @@ Aside from the Latin/English script, there are four Baybayin script layouts incl
 
 To display the Baybayin characters, you need to install a Unicode-compliant, or mixed-Unicode, font with Baybayin support. For more information and download links, visit our [Fonts](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/wiki/Fonts) page.
 
-## Licenses
+## License
 
 - **Layout** designs:
-  - Baybayin: CC0 / Public Domain
+  - Baybayin: CC0 Public Domain dedication
   - Latin/English: Creative Commons Attribution (CC BY) 4.0 International
-- Software **code**: MIT License
+- Software **code**:
+  - Baybayin: MIT No Attribution (MIT-0)
+  - Latin/English: MIT License (MIT)
 
 (*For more details, see [LICENSE.md](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/src/branch/main/LICENSE.md).*)
 
 ### License FAQ
 
 1. Why do you have a separate license for *layout desings* and *software code*?
-    - The *layout designs* are a work of art, and as such, a software license is not applicable. On the other hand, the *software code* is a piece of software and should have a software license.
+    - The *layout designs* are a work of art, and as such, a software license is not applicable. On the other hand, the *software code* is a piece of software and should have a software license, not a license intended for works of art.
 1. Can I use your layout designs in my software?
     - Yes. Both *Public Domain* and *Creative Commons Attribution (CC BY) 4.0 International License* allows it.
 1. If I use your layout designs using another keyboard application and release it, which license governs it?
     - The layout design license (see above). For example, you imported a layout design to Mac using **Ukelele**, the license of your software code is separate from the layout design. You worked on that software code, so you choose the license for your own code.
 1. What if I convert your software code to another format?
     - That falls under the software code license (see above).
-1. Can I release my own binary (installation) file and probably bundle it in larger work, like a software repository?
+1. Can I release my own binary (installation) file and probably bundle it in a larger work, like a software repository?
     - Please do so, our chosen license is permissive (see [LICENSE.md](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/src/branch/main/LICENSE.md)).
 
 ## Keyboard Layout Images
@@ -114,6 +118,6 @@ More keyboard layout images are available in the [`/images/`](https://codeberg.o
 
 ![Tagalog (Philippines, Baybayin, Colemak)](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/raw/branch/main/images/tagalog-baybayin-colemak.png "Tagalog (Philippines, Baybayin, Colemak)")
 
-(*The images were generated by X11 xkb via Pop_OS! 22.04 LTS.*)
+(*The images were generated by X11 xkb via Pop!_OS 22.04 LTS.*)
 
 More keyboard layout images are available in the [`/images/`](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines/src/branch/main/images) folder.
