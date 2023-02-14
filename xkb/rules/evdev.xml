@@ -6144,9 +6144,9 @@
     <layout>
       <configItem>
         <name>ph</name>
-        <!-- Keyboard indicator for Philippine Latin layouts -->
-        <shortDescription>ph</shortDescription>
-        <description>Filipino, English (Philippines)</description>
+        <!-- Keyboard indicator for Philippine layouts -->
+        <shortDescription>fil</shortDescription>
+        <description>Filipino</description>
         <languageList>
           <iso639Id>eng</iso639Id>
           <iso639Id>fil</iso639Id>
@@ -6181,333 +6181,1021 @@
         <variant>
           <configItem>
             <name>colemak</name>
-            <description>Filipino, English (Philippines, Colemak)</description>
+            <description>Filipino (Colemak)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>colemak-dh</name>
-            <description>Filipino, English (Philippines, Colemak-DH)</description>
+            <description>Filipino (Colemak-DH)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>capewell-qwerf2007</name>
-            <description>Filipino, English (Philippines, Capewell-QWERF2007)</description>
+            <description>Filipino (Capewell-QWERF2007)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>capewell-qwerf2006</name>
-            <description>Filipino, English (Philippines, Capewell-QWERF2006)</description>
+            <description>Filipino (Capewell-QWERF2006)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <description>Filipino, English (Philippines, Dvorak)</description>
+            <description>Filipino (Dvorak)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>capewell-dvorak</name>
-            <description>Filipino, English (Philippines, Capewell-Dvorak)</description>
+            <description>Filipino (Capewell-Dvorak)</description>
           </configItem>
         </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>ph-buhd</name>
-        <!-- Keyboard indicator for Buhid (Philippines, Baybayin) layouts -->
-        <shortDescription>buhd</shortDescription>
-        <description>Buhid (Philippines, Baybayin)</description>
-        <languageList>
-          <iso639Id>fil</iso639Id>
-          <iso639Id>akl</iso639Id>
-          <iso639Id>bcl</iso639Id>
-          <iso639Id>bik</iso639Id>
-          <iso639Id>bnc</iso639Id>
-          <iso639Id>cbk</iso639Id>
-          <iso639Id>ceb</iso639Id>
-          <iso639Id>hil</iso639Id>
-          <iso639Id>ibg</iso639Id>
-          <iso639Id>ilo</iso639Id>
-          <iso639Id>ivb</iso639Id>
-          <iso639Id>ivv</iso639Id>
-          <iso639Id>krj</iso639Id>
-          <iso639Id>mdh</iso639Id>
-          <iso639Id>mlz</iso639Id>
-          <iso639Id>mrw</iso639Id>
-          <iso639Id>pag</iso639Id>
-          <iso639Id>pam</iso639Id>
-          <iso639Id>tgl</iso639Id>
-          <iso639Id>tgn</iso639Id>
-          <iso639Id>tsg</iso639Id>
-          <iso639Id>sgd</iso639Id>
-          <iso639Id>war</iso639Id>
-          <iso639Id>xsb</iso639Id>
-          <iso639Id>yka</iso639Id>
-          <iso639Id>phi</iso639Id>
-        </languageList>
-      </configItem>
-      <variantList>
+        <!-- Baybayin-Buhid -->
         <variant>
           <configItem>
-            <name>colemak</name>
-            <description>Buhid (Philippines, Baybayin, Colemak)</description>
+            <name>buhd-qwerty</name>
+            <shortDescription>fil-Buhd</shortDescription>
+            <description>Buhid (Baybayin)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>colemak-dh</name>
-            <description>Buhid (Philippines, Baybayin, Colemak-DH)</description>
+            <name>buhd-colemak</name>
+            <shortDescription>fil-Buhd</shortDescription>
+            <description>Buhid (Baybayin, Colemak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2007</name>
-            <description>Buhid (Philippines, Baybayin, Capewell-QWERF2007)</description>
+            <name>buhd-colemak-dh</name>
+            <shortDescription>fil-Buhd</shortDescription>
+            <description>Buhid (Baybayin, Colemak-DH)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2006</name>
-            <description>Buhid (Philippines, Baybayin, Capewell-QWERF2006)</description>
+            <name>buhd-capewell-qwerf2007</name>
+            <shortDescription>fil-Buhd</shortDescription>
+            <description>Buhid (Baybayin, Capewell-QWERF2007)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>dvorak</name>
-            <description>Buhid (Philippines, Baybayin, Dvorak)</description>
+            <name>buhd-capewell-qwerf2006</name>
+            <shortDescription>fil-Buhd</shortDescription>
+            <description>Buhid (Baybayin, Capewell-QWERF2006)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-dvorak</name>
-            <description>Buhid (Philippines, Baybayin, Capewell-Dvorak)</description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>ph-hano</name>
-        <!-- Keyboard indicator for Hanunoo (Philippines, Baybayin) layouts -->
-        <shortDescription>hano</shortDescription>
-        <description>Hanunoo (Philippines, Baybayin)</description>
-        <languageList>
-          <iso639Id>fil</iso639Id>
-          <iso639Id>akl</iso639Id>
-          <iso639Id>bcl</iso639Id>
-          <iso639Id>bik</iso639Id>
-          <iso639Id>bnc</iso639Id>
-          <iso639Id>cbk</iso639Id>
-          <iso639Id>ceb</iso639Id>
-          <iso639Id>hil</iso639Id>
-          <iso639Id>ibg</iso639Id>
-          <iso639Id>ilo</iso639Id>
-          <iso639Id>ivb</iso639Id>
-          <iso639Id>ivv</iso639Id>
-          <iso639Id>krj</iso639Id>
-          <iso639Id>mdh</iso639Id>
-          <iso639Id>mlz</iso639Id>
-          <iso639Id>mrw</iso639Id>
-          <iso639Id>pag</iso639Id>
-          <iso639Id>pam</iso639Id>
-          <iso639Id>tgl</iso639Id>
-          <iso639Id>tgn</iso639Id>
-          <iso639Id>tsg</iso639Id>
-          <iso639Id>sgd</iso639Id>
-          <iso639Id>war</iso639Id>
-          <iso639Id>xsb</iso639Id>
-          <iso639Id>yka</iso639Id>
-          <iso639Id>phi</iso639Id>
-        </languageList>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>colemak</name>
-            <description>Hanunoo (Philippines, Baybayin, Colemak)</description>
+            <name>buhd-dvorak</name>
+            <shortDescription>fil-Buhd</shortDescription>
+            <description>Buhid (Baybayin, Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>colemak-dh</name>
-            <description>Hanunoo (Philippines, Baybayin, Colemak-DH)</description>
+            <name>buhd-capewell-dvorak</name>
+            <shortDescription>fil-Buhd</shortDescription>
+            <description>Buhid (Baybayin, Capewell-Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <!-- Baybayin-Hanunoo -->
+        <variant>
+          <configItem>
+            <name>hano-qwerty</name>
+            <shortDescription>fil-Hano</shortDescription>
+            <description>Hanunoo (Baybayin)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2007</name>
-            <description>Hanunoo (Philippines, Baybayin, Capewell-QWERF2007)</description>
+            <name>hano-colemak</name>
+            <shortDescription>fil-Hano</shortDescription>
+            <description>Hanunoo (Baybayin, Colemak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2006</name>
-            <description>Hanunoo (Philippines, Baybayin, Capewell-QWERF2006)</description>
+            <name>hano-colemak-dh</name>
+            <shortDescription>fil-Hano</shortDescription>
+            <description>Hanunoo (Baybayin, Colemak-DH)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>dvorak</name>
-            <description>Hanunoo (Philippines, Baybayin, Dvorak)</description>
+            <name>hano-capewell-qwerf2007</name>
+            <shortDescription>fil-Hano</shortDescription>
+            <description>Hanunoo (Baybayin, Capewell-QWERF2007)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-dvorak</name>
-            <description>Hanunoo (Philippines, Baybayin, Capewell-Dvorak)</description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>ph-tglg</name>
-        <!-- Keyboard indicator for Tagalog (Philippines, Baybayin) layouts -->
-        <shortDescription>tglg</shortDescription>
-        <description>Tagalog (Philippines, Baybayin)</description>
-        <languageList>
-          <iso639Id>fil</iso639Id>
-          <iso639Id>akl</iso639Id>
-          <iso639Id>bcl</iso639Id>
-          <iso639Id>bik</iso639Id>
-          <iso639Id>bnc</iso639Id>
-          <iso639Id>cbk</iso639Id>
-          <iso639Id>ceb</iso639Id>
-          <iso639Id>hil</iso639Id>
-          <iso639Id>ibg</iso639Id>
-          <iso639Id>ilo</iso639Id>
-          <iso639Id>ivb</iso639Id>
-          <iso639Id>ivv</iso639Id>
-          <iso639Id>krj</iso639Id>
-          <iso639Id>mdh</iso639Id>
-          <iso639Id>mlz</iso639Id>
-          <iso639Id>mrw</iso639Id>
-          <iso639Id>pag</iso639Id>
-          <iso639Id>pam</iso639Id>
-          <iso639Id>tgl</iso639Id>
-          <iso639Id>tgn</iso639Id>
-          <iso639Id>tsg</iso639Id>
-          <iso639Id>sgd</iso639Id>
-          <iso639Id>war</iso639Id>
-          <iso639Id>xsb</iso639Id>
-          <iso639Id>yka</iso639Id>
-          <iso639Id>phi</iso639Id>
-        </languageList>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>colemak</name>
-            <description>Tagalog (Philippines, Baybayin, Colemak)</description>
+            <name>hano-capewell-qwerf2006</name>
+            <shortDescription>fil-Hano</shortDescription>
+            <description>Hanunoo (Baybayin, Capewell-QWERF2006)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>colemak-dh</name>
-            <description>Tagalog (Philippines, Baybayin, Colemak-DH)</description>
+            <name>hano-dvorak</name>
+            <shortDescription>fil-Hano</shortDescription>
+            <description>Hanunoo (Baybayin, Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2007</name>
-            <description>Tagalog (Philippines, Baybayin, Capewell-QWERF2007)</description>
+            <name>hano-capewell-dvorak</name>
+            <shortDescription>fil-Hano</shortDescription>
+            <description>Hanunoo (Baybayin, Capewell-Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <!-- Baybayin-Tagalog -->
+        <variant>
+          <configItem>
+            <name>tglg-qwerty</name>
+            <shortDescription>fil-Tglg</shortDescription>
+            <description>Tagalog (Baybayin)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2006</name>
-            <description>Tagalog (Philippines, Baybayin, Capewell-QWERF2006)</description>
+            <name>tglg-colemak</name>
+            <shortDescription>fil-Tglg</shortDescription>
+            <description>Tagalog (Baybayin, Colemak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>dvorak</name>
-            <description>Tagalog (Philippines, Baybayin, Dvorak)</description>
+            <name>tglg-colemak-dh</name>
+            <shortDescription>fil-Tglg</shortDescription>
+            <description>Tagalog (Baybayin, Colemak-DH)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-dvorak</name>
-            <description>Tagalog (Philippines, Baybayin, Capewell-Dvorak)</description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>ph-tagb</name>
-        <!-- Keyboard indicator for Tagbanwa (Philippines, Baybayin) layouts -->
-        <shortDescription>tagb</shortDescription>
-        <description>Tagbanwa (Philippines, Baybayin)</description>
-        <languageList>
-          <iso639Id>fil</iso639Id>
-          <iso639Id>akl</iso639Id>
-          <iso639Id>bcl</iso639Id>
-          <iso639Id>bik</iso639Id>
-          <iso639Id>bnc</iso639Id>
-          <iso639Id>cbk</iso639Id>
-          <iso639Id>ceb</iso639Id>
-          <iso639Id>hil</iso639Id>
-          <iso639Id>ibg</iso639Id>
-          <iso639Id>ilo</iso639Id>
-          <iso639Id>ivb</iso639Id>
-          <iso639Id>ivv</iso639Id>
-          <iso639Id>krj</iso639Id>
-          <iso639Id>mdh</iso639Id>
-          <iso639Id>mlz</iso639Id>
-          <iso639Id>mrw</iso639Id>
-          <iso639Id>pag</iso639Id>
-          <iso639Id>pam</iso639Id>
-          <iso639Id>tgl</iso639Id>
-          <iso639Id>tgn</iso639Id>
-          <iso639Id>tsg</iso639Id>
-          <iso639Id>sgd</iso639Id>
-          <iso639Id>war</iso639Id>
-          <iso639Id>xsb</iso639Id>
-          <iso639Id>yka</iso639Id>
-          <iso639Id>phi</iso639Id>
-        </languageList>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>colemak</name>
-            <description>Tagbanwa (Philippines, Baybayin, Colemak)</description>
+            <name>tglg-capewell-qwerf2007</name>
+            <shortDescription>fil-Tglg</shortDescription>
+            <description>Tagalog (Baybayin, Capewell-QWERF2007)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>colemak-dh</name>
-            <description>Tagbanwa (Philippines, Baybayin, Colemak-DH)</description>
+            <name>tglg-capewell-qwerf2006</name>
+            <shortDescription>fil-Tglg</shortDescription>
+            <description>Tagalog (Baybayin, Capewell-QWERF2006)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2007</name>
-            <description>Tagbanwa (Philippines, Baybayin, Capewell-QWERF2007)</description>
+            <name>tglg-dvorak</name>
+            <shortDescription>fil-Tglg</shortDescription>
+            <description>Tagalog (Baybayin, Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-qwerf2006</name>
-            <description>Tagbanwa (Philippines, Baybayin, Capewell-QWERF2006)</description>
+            <name>tglg-capewell-dvorak</name>
+            <shortDescription>fil-Tglg</shortDescription>
+            <description>Tagalog (Baybayin, Capewell-Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <!-- Baybayin-Tagbanwa -->
+        <variant>
+          <configItem>
+            <name>tagb-qwerty</name>
+            <shortDescription>fil-Tagb</shortDescription>
+            <description>Tagbanwa (Baybayin)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>dvorak</name>
-            <description>Tagbanwa (Philippines, Baybayin, Dvorak)</description>
+            <name>tagb-colemak</name>
+            <shortDescription>fil-Tagb</shortDescription>
+            <description>Tagbanwa (Baybayin, Colemak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>capewell-dvorak</name>
-            <description>Tagbanwa (Philippines, Baybayin, Capewell-Dvorak)</description>
+            <name>tagb-colemak-dh</name>
+            <shortDescription>fil-Tagb</shortDescription>
+            <description>Tagbanwa (Baybayin, Colemak-DH)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tagb-capewell-qwerf2007</name>
+            <shortDescription>fil-Tagb</shortDescription>
+            <description>Tagbanwa (Baybayin, Capewell-QWERF2007)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tagb-capewell-qwerf2006</name>
+            <shortDescription>fil-Tagb</shortDescription>
+            <description>Tagbanwa (Baybayin, Capewell-QWERF2006)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tagb-dvorak</name>
+            <shortDescription>fil-Tagb</shortDescription>
+            <description>Tagbanwa (Baybayin, Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tagb-capewell-dvorak</name>
+            <shortDescription>fil-Tagb</shortDescription>
+            <description>Tagbanwa (Baybayin, Capewell-Dvorak)</description>
+            <languageList>
+              <iso639Id>fil</iso639Id>
+              <iso639Id>akl</iso639Id>
+              <iso639Id>bcl</iso639Id>
+              <iso639Id>bik</iso639Id>
+              <iso639Id>bnc</iso639Id>
+              <iso639Id>cbk</iso639Id>
+              <iso639Id>ceb</iso639Id>
+              <iso639Id>hil</iso639Id>
+              <iso639Id>ibg</iso639Id>
+              <iso639Id>ilo</iso639Id>
+              <iso639Id>ivb</iso639Id>
+              <iso639Id>ivv</iso639Id>
+              <iso639Id>krj</iso639Id>
+              <iso639Id>mdh</iso639Id>
+              <iso639Id>mlz</iso639Id>
+              <iso639Id>mrw</iso639Id>
+              <iso639Id>pag</iso639Id>
+              <iso639Id>pam</iso639Id>
+              <iso639Id>tgl</iso639Id>
+              <iso639Id>tgn</iso639Id>
+              <iso639Id>tsg</iso639Id>
+              <iso639Id>sgd</iso639Id>
+              <iso639Id>war</iso639Id>
+              <iso639Id>xsb</iso639Id>
+              <iso639Id>yka</iso639Id>
+              <iso639Id>phi</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>
