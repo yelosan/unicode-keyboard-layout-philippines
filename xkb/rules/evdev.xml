@@ -6148,15 +6148,18 @@
         <shortDescription>fil</shortDescription>
         <description>Filipino</description>
         <languageList>
-          <iso639Id>eng</iso639Id>
           <iso639Id>fil</iso639Id>
+          <iso639Id>phi</iso639Id>
+          <iso639Id>eng</iso639Id>
           <iso639Id>akl</iso639Id>
           <iso639Id>bcl</iso639Id>
           <iso639Id>bik</iso639Id>
+          <iso639Id>bku</iso639Id>
           <iso639Id>bnc</iso639Id>
           <iso639Id>cbk</iso639Id>
           <iso639Id>ceb</iso639Id>
           <iso639Id>hil</iso639Id>
+          <iso639Id>hnn</iso639Id>
           <iso639Id>ibg</iso639Id>
           <iso639Id>ilo</iso639Id>
           <iso639Id>ivb</iso639Id>
@@ -6167,14 +6170,16 @@
           <iso639Id>mrw</iso639Id>
           <iso639Id>pag</iso639Id>
           <iso639Id>pam</iso639Id>
+          <iso639Id>tbk</iso639Id>
+          <iso639Id>tbw</iso639Id>
           <iso639Id>tgl</iso639Id>
           <iso639Id>tgn</iso639Id>
+          <iso639Id>tgt</iso639Id>
           <iso639Id>tsg</iso639Id>
           <iso639Id>sgd</iso639Id>
           <iso639Id>war</iso639Id>
           <iso639Id>xsb</iso639Id>
           <iso639Id>yka</iso639Id>
-          <iso639Id>phi</iso639Id>
         </languageList>
       </configItem>
       <variantList>
@@ -6221,7 +6226,9 @@
             <shortDescription>fil-Buhd</shortDescription>
             <description>Buhid (Baybayin)</description>
             <languageList>
+              <iso639Id>bku</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
@@ -6229,6 +6236,7 @@
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6239,14 +6247,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6256,7 +6266,9 @@
             <shortDescription>fil-Buhd</shortDescription>
             <description>Buhid (Baybayin, Colemak)</description>
             <languageList>
+              <iso639Id>bku</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
@@ -6264,6 +6276,7 @@
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6274,14 +6287,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6291,7 +6306,9 @@
             <shortDescription>fil-Buhd</shortDescription>
             <description>Buhid (Baybayin, Colemak-DH)</description>
             <languageList>
+              <iso639Id>bku</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
@@ -6299,6 +6316,7 @@
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6309,14 +6327,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6326,7 +6346,9 @@
             <shortDescription>fil-Buhd</shortDescription>
             <description>Buhid (Baybayin, Capewell-QWERF2007)</description>
             <languageList>
+              <iso639Id>bku</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
@@ -6334,6 +6356,7 @@
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6344,14 +6367,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6361,7 +6386,9 @@
             <shortDescription>fil-Buhd</shortDescription>
             <description>Buhid (Baybayin, Capewell-QWERF2006)</description>
             <languageList>
+              <iso639Id>bku</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
@@ -6369,6 +6396,7 @@
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6379,14 +6407,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6396,7 +6426,9 @@
             <shortDescription>fil-Buhd</shortDescription>
             <description>Buhid (Baybayin, Dvorak)</description>
             <languageList>
+              <iso639Id>bku</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
@@ -6404,6 +6436,7 @@
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6414,14 +6447,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6431,7 +6466,9 @@
             <shortDescription>fil-Buhd</shortDescription>
             <description>Buhid (Baybayin, Capewell-Dvorak)</description>
             <languageList>
+              <iso639Id>bku</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
@@ -6439,6 +6476,7 @@
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6449,14 +6487,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6467,10 +6507,13 @@
             <shortDescription>fil-Hano</shortDescription>
             <description>Hanunoo (Baybayin)</description>
             <languageList>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
@@ -6485,14 +6528,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6502,10 +6547,13 @@
             <shortDescription>fil-Hano</shortDescription>
             <description>Hanunoo (Baybayin, Colemak)</description>
             <languageList>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
@@ -6520,14 +6568,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6537,10 +6587,13 @@
             <shortDescription>fil-Hano</shortDescription>
             <description>Hanunoo (Baybayin, Colemak-DH)</description>
             <languageList>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
@@ -6555,14 +6608,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6572,10 +6627,13 @@
             <shortDescription>fil-Hano</shortDescription>
             <description>Hanunoo (Baybayin, Capewell-QWERF2007)</description>
             <languageList>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
@@ -6590,14 +6648,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6607,10 +6667,13 @@
             <shortDescription>fil-Hano</shortDescription>
             <description>Hanunoo (Baybayin, Capewell-QWERF2006)</description>
             <languageList>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
@@ -6625,14 +6688,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6642,10 +6707,13 @@
             <shortDescription>fil-Hano</shortDescription>
             <description>Hanunoo (Baybayin, Dvorak)</description>
             <languageList>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
@@ -6660,14 +6728,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6677,10 +6747,13 @@
             <shortDescription>fil-Hano</shortDescription>
             <description>Hanunoo (Baybayin, Capewell-Dvorak)</description>
             <languageList>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
@@ -6695,14 +6768,16 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgl</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6713,14 +6788,18 @@
             <shortDescription>fil-Tglg</shortDescription>
             <description>Tagalog (Baybayin)</description>
             <languageList>
+              <iso639Id>tgl</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6731,14 +6810,15 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
-              <iso639Id>tgl</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6748,14 +6828,18 @@
             <shortDescription>fil-Tglg</shortDescription>
             <description>Tagalog (Baybayin, Colemak)</description>
             <languageList>
+              <iso639Id>tgl</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6766,14 +6850,15 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
-              <iso639Id>tgl</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6783,14 +6868,18 @@
             <shortDescription>fil-Tglg</shortDescription>
             <description>Tagalog (Baybayin, Colemak-DH)</description>
             <languageList>
+              <iso639Id>tgl</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6801,14 +6890,15 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
-              <iso639Id>tgl</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6818,14 +6908,18 @@
             <shortDescription>fil-Tglg</shortDescription>
             <description>Tagalog (Baybayin, Capewell-QWERF2007)</description>
             <languageList>
+              <iso639Id>tgl</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6836,14 +6930,15 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
-              <iso639Id>tgl</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6853,14 +6948,18 @@
             <shortDescription>fil-Tglg</shortDescription>
             <description>Tagalog (Baybayin, Capewell-QWERF2006)</description>
             <languageList>
+              <iso639Id>tgl</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6871,14 +6970,15 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
-              <iso639Id>tgl</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6888,14 +6988,18 @@
             <shortDescription>fil-Tglg</shortDescription>
             <description>Tagalog (Baybayin, Dvorak)</description>
             <languageList>
+              <iso639Id>tgl</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6906,14 +7010,15 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
-              <iso639Id>tgl</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6923,14 +7028,18 @@
             <shortDescription>fil-Tglg</shortDescription>
             <description>Tagalog (Baybayin, Capewell-Dvorak)</description>
             <languageList>
+              <iso639Id>tgl</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6941,14 +7050,15 @@
               <iso639Id>mrw</iso639Id>
               <iso639Id>pag</iso639Id>
               <iso639Id>pam</iso639Id>
-              <iso639Id>tgl</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tbw</iso639Id>
               <iso639Id>tgn</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>tsg</iso639Id>
               <iso639Id>sgd</iso639Id>
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6959,14 +7069,20 @@
             <shortDescription>fil-Tagb</shortDescription>
             <description>Tagbanwa (Baybayin)</description>
             <languageList>
+              <iso639Id>tbw</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -6984,7 +7100,6 @@
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -6994,14 +7109,20 @@
             <shortDescription>fil-Tagb</shortDescription>
             <description>Tagbanwa (Baybayin, Colemak)</description>
             <languageList>
+              <iso639Id>tbw</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -7019,7 +7140,6 @@
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -7029,14 +7149,20 @@
             <shortDescription>fil-Tagb</shortDescription>
             <description>Tagbanwa (Baybayin, Colemak-DH)</description>
             <languageList>
+              <iso639Id>tbw</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -7054,7 +7180,6 @@
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -7064,14 +7189,20 @@
             <shortDescription>fil-Tagb</shortDescription>
             <description>Tagbanwa (Baybayin, Capewell-QWERF2007)</description>
             <languageList>
+              <iso639Id>tbw</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -7089,7 +7220,6 @@
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -7099,14 +7229,20 @@
             <shortDescription>fil-Tagb</shortDescription>
             <description>Tagbanwa (Baybayin, Capewell-QWERF2006)</description>
             <languageList>
+              <iso639Id>tbw</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -7124,7 +7260,6 @@
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -7134,14 +7269,20 @@
             <shortDescription>fil-Tagb</shortDescription>
             <description>Tagbanwa (Baybayin, Dvorak)</description>
             <languageList>
+              <iso639Id>tbw</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -7159,7 +7300,6 @@
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -7169,14 +7309,20 @@
             <shortDescription>fil-Tagb</shortDescription>
             <description>Tagbanwa (Baybayin, Capewell-Dvorak)</description>
             <languageList>
+              <iso639Id>tbw</iso639Id>
+              <iso639Id>tbk</iso639Id>
+              <iso639Id>tgt</iso639Id>
               <iso639Id>fil</iso639Id>
+              <iso639Id>phi</iso639Id>
               <iso639Id>akl</iso639Id>
               <iso639Id>bcl</iso639Id>
               <iso639Id>bik</iso639Id>
+              <iso639Id>bku</iso639Id>
               <iso639Id>bnc</iso639Id>
               <iso639Id>cbk</iso639Id>
               <iso639Id>ceb</iso639Id>
               <iso639Id>hil</iso639Id>
+              <iso639Id>hnn</iso639Id>
               <iso639Id>ibg</iso639Id>
               <iso639Id>ilo</iso639Id>
               <iso639Id>ivb</iso639Id>
@@ -7194,7 +7340,6 @@
               <iso639Id>war</iso639Id>
               <iso639Id>xsb</iso639Id>
               <iso639Id>yka</iso639Id>
-              <iso639Id>phi</iso639Id>
             </languageList>
           </configItem>
         </variant>
