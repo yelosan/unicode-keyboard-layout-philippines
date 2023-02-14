@@ -7,14 +7,10 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
   //
   // Based on: ISO/IEC 9995-3:2010 as of 2023-02-05
   //   * https://en.wikipedia.org/wiki/ISO/IEC_9995
-  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   default partial alphanumeric_keys
   xkb_symbols "basic" {
@@ -83,14 +79,10 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
   //
   // Based on: Colemak as of 2023-02-05
   //   * https://colemak.com
-  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "colemak" {
@@ -153,14 +145,10 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
   //
   // Based on: Colemak-DH as of 2023-02-05
   //   * https://colemakmods.github.io/mod-dh/
-  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "colemak-dh" {
@@ -196,14 +184,10 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
   //
   // Based on: Capewell-QWERF2007 as of 2023-02-06
   //   * http://www.michaelcapewell.com/projects/keyboard/index.htm#The_QWERF_Layout
-  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "capewell-qwerf2007" {
@@ -266,14 +250,10 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
   //
   // Based on: Capewell-QWERF2006 as of 2023-02-06
   //   * http://www.michaelcapewell.com/projects/keyboard/index.htm#The_QWERF_Layout
-  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "capewell-qwerf2006" {
@@ -303,14 +283,10 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
   //
   // Based on: Dvorak US as of 2023-02-06
   //   * https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
-  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "dvorak" {
@@ -377,14 +353,10 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
   //
   // Based on: Capewell-Dvorak as of 2023-02-06
   //   * http://www.michaelcapewell.com/projects/keyboard/index.htm#The_Capewell-Dvorak_Layout
-  // Lang: eng, fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "capewell-dvorak" {
@@ -431,12 +403,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "buhd-qwerty" {
@@ -498,12 +465,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "buhd-colemak" {
@@ -565,12 +527,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "buhd-colemak-dh" {
@@ -604,12 +561,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "buhd-capewell-qwerf2007" {
@@ -671,12 +623,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "buhd-capewell-qwerf2006" {
@@ -706,12 +653,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "buhd-dvorak" {
@@ -778,12 +720,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "buhd-capewell-dvorak" {
@@ -822,12 +759,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "hano-qwerty" {
@@ -889,12 +821,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "hano-colemak" {
@@ -956,12 +883,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "hano-colemak-dh" {
@@ -995,12 +917,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "hano-capewell-qwerf2007" {
@@ -1062,12 +979,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "hano-capewell-qwerf2006" {
@@ -1097,12 +1009,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "hano-dvorak" {
@@ -1169,12 +1076,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "hano-capewell-dvorak" {
@@ -1213,12 +1115,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tglg-qwerty" {
@@ -1280,12 +1177,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tglg-colemak" {
@@ -1347,12 +1239,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tglg-colemak-dh" {
@@ -1386,12 +1273,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tglg-capewell-qwerf2007" {
@@ -1453,12 +1335,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tglg-capewell-qwerf2006" {
@@ -1488,12 +1365,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tglg-dvorak" {
@@ -1560,12 +1432,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tglg-capewell-dvorak" {
@@ -1604,12 +1471,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tagb-qwerty" {
@@ -1671,12 +1533,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tagb-colemak" {
@@ -1738,12 +1595,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tagb-colemak-dh" {
@@ -1777,12 +1629,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tagb-capewell-qwerf2007" {
@@ -1844,12 +1691,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tagb-capewell-qwerf2006" {
@@ -1879,12 +1721,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tagb-dvorak" {
@@ -1951,12 +1788,7 @@
   //
   // By: JC John Sese Cuneta (Yelosan Publishing)
   //   * Email: contact@im.youronly.one | jcjohn.sesecuneta@gmail.com
-  //   * GPG: https://youronly.one/?verify=keyoxide
-  //   * Keybase: https://keybase.io/yukino
   // For: Ubuntu Philippines LoCo Team and the Filipino people
-  //
-  // Lang: fil, akl, bcl, bik, bnc, cbk, ceb, hil, ibg, ilo, ivb, ivv, krj,
-  //       mdh, mlz, mrw, pag, pam, tgl, tgn, tsg, sgd, war, xsb, yka, phi
   //
   partial alphanumeric_keys
   xkb_symbols "tagb-capewell-dvorak" {
