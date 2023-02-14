@@ -1824,8 +1824,8 @@
     // NUMERIC row
     // TLDE is AE00 in some physical keyboards (e.g. OLPC)
     key <TLDE> { [      U0060,      U007E,      U0300,      U0303 ] }; // ` ~ ◌̀ ◌̃ (L3: combining grave | tuldik paiwa) (L4: combining tildə | tuldik tildə)
-    key <AE01> { [      U0031,      U0021,      U0360,      U00A1 ] }; // 1 ! ◌͠◌ ¡ (L3: combining double tildə | tuldik tildə) (L4: inverted exclamation point)
-    key <AE02> { [      U0032,      U0040,      U2153, VoidSymbol ] }; // 2 @ ⅓
+    key <AE01> { [      U0031,      U0021, VoidSymbol,      U00A1 ] }; // 1 ! L3 ¡ (L4: inverted exclamation point)
+    key <AE02> { [      U0032,      U0040,      U2153,      U0360 ] }; // 2 @ ⅓ ◌͠◌ (L4: combining double tildə | tuldik tildə)
     key <AE03> { [      U0033,      U0023,      U2154,      U00A3 ] }; // 3 # ⅔ £
     key <AE04> { [      U0034,      U0024,      U00BC,      U20AC ] }; // 4 $ ¼ €
     key <AE05> { [      U0035,      U0025,      U00BD, VoidSymbol ] }; // 5 % ½
