@@ -6147,6 +6147,9 @@
         <!-- Keyboard indicator for Philippine layouts -->
         <shortDescription>fil</shortDescription>
         <description>Filipino</description>
+        <countryList>
+          <iso3166Id>PH</iso3166Id>
+        </countryList>
         <languageList>
           <iso639Id>fil</iso639Id>
           <iso639Id>phi</iso639Id>
