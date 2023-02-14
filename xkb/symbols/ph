@@ -30,8 +30,8 @@
     key <AD08> { [      U0069,      U0049,      U2018,      U201C ] }; // i I ‘ “
     key <AD09> { [      U006F,      U004F,      U2019,      U201D ] }; // o O ’ ”
     key <AD10> { [      U0070,      U0050, VoidSymbol,      U20B1 ] }; // p P L3 ₱
-    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
-    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash | gatlang en) (L4: figure dash)
+    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash | gatlang em) (L4: quotation/dialogue dash)
     key <BKSL> { [      U005C,      U007C,      U0259,      U018F ] }; // \ | ə Ə
 
     // HOME row
@@ -102,8 +102,8 @@
     key <AD08> { [      U0075,      U0055, VoidSymbol, VoidSymbol ] }; // u U
     key <AD09> { [      U0079,      U0059, VoidSymbol,      U00A5 ] }; // y Y L3 ¥
     key <AD10> { [      U003B,      U003A,      U0304,      U035E ] }; // ; : ◌̄ ◌͞ (L3: combining macron | tuldik pahaba) (L4: combining double macron | tuldik pahaba)
-    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
-    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash | gatlang en) (L4: figure dash)
+    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash | gatlang em) (L4: quotation/dialogue dash)
     key <BKSL> { [      U005C,      U007C,      U0259,      U018F ] }; // \ | ə Ə
 
     // HOME row
@@ -207,8 +207,8 @@
     key <AD08> { [      U006C,      U004C, VoidSymbol, VoidSymbol ] }; // l L
     key <AD09> { [      U006B,      U004B, VoidSymbol, VoidSymbol ] }; // k K
     key <AD10> { [      U003B,      U003A,      U0304,      U035E ] }; // ; : ◌̄ ◌͞ (L3: combining macron | tuldik pahaba) (L4: combining double macron | tuldik pahaba)
-    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
-    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+    key <AD11> { [      U005B,      U007B,      U2013,      U2012 ] }; // [ { – ‒ (L3: en dash | gatlang en) (L4: figure dash)
+    key <AD12> { [      U005D,      U007D,      U2014,      U2015 ] }; // ] } — ― (L3: em dash | gatlang em) (L4: quotation/dialogue dash)
     key <BKSL> { [      U005C,      U007C,      U0259,      U018F ] }; // \ | ə Ə
 
     // HOME row
@@ -296,8 +296,8 @@
     include "ph(numeric-row)"
 
     // NUMERIC row
-    key <AE11> { [      U005B,      U007B,      U2013,      U2012, VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; // [ { – ‒ (L3: en dash) (L4: figure dash)
-    key <AE12> { [      U005D,      U007D,      U2014,      U2015, VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; // ] } — ― (L3: em dash) (L4: quotation/dialogue dash)
+    key <AE11> { [      U005B,      U007B,      U2013,      U2012, VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; // [ { – ‒ (L3: en dash | gatlang en) (L4: figure dash)
+    key <AE12> { [      U005D,      U007D,      U2014,      U2015, VoidSymbol, VoidSymbol, VoidSymbol, VoidSymbol ] }; // ] } — ― (L3: em dash | gatlang em) (L4: quotation/dialogue dash)
 
     // TOP row
     key <AD01> { [      U0027,      U0022,      U0301,      U0308 ] }; // ' " ◌́ ◌̈ (L3: combining acute | tuldik pahilis) (L4: combining dieresis | tuldik patuldok)
@@ -1823,8 +1823,8 @@
 
     // NUMERIC row
     // TLDE is AE00 in some physical keyboards (e.g. OLPC)
-    key <TLDE> { [      U0060,      U007E,      U0300,      U0303 ] }; // ` ~ ◌̀ ◌̃ (L3: combining grave | tuldik paiwa) (L4: combining tilde)
-    key <AE01> { [      U0031,      U0021,      U0360,      U00A1 ] }; // 1 ! ◌͠ ¡ (L3: combining double tilde) (L4: inverted exclamation point)
+    key <TLDE> { [      U0060,      U007E,      U0300,      U0303 ] }; // ` ~ ◌̀ ◌̃ (L3: combining grave | tuldik paiwa) (L4: combining tildə | tuldik tildə)
+    key <AE01> { [      U0031,      U0021,      U0360,      U00A1 ] }; // 1 ! ◌͠◌ ¡ (L3: combining double tildə | tuldik tildə) (L4: inverted exclamation point)
     key <AE02> { [      U0032,      U0040,      U2153, VoidSymbol ] }; // 2 @ ⅓
     key <AE03> { [      U0033,      U0023,      U2154,      U00A3 ] }; // 3 # ⅔ £
     key <AE04> { [      U0034,      U0024,      U00BC,      U20AC ] }; // 4 $ ¼ €
@@ -1834,7 +1834,7 @@
     key <AE08> { [      U0038,      U002A, VoidSymbol,      U00B0 ] }; // 8 * L3 ° (L4: degree symbol)
     key <AE09> { [      U0039,      U0028,      U2039,      U00AB ] }; // 9 ( ‹ « (L3: Asian-Latin single open quote mark) (L4: Asian-Latin double open quote mark)
     key <AE10> { [      U0030,      U0029,      U203A,      U00BB ] }; // 0 ) › » (L3: Asian-Latin single close quote mark) (L4: Asian Latin double close quote mark)
-    key <AE11> { [      U002D,      U005F, VoidSymbol, VoidSymbol ] }; // - _
+    key <AE11> { [      U002D,      U005F,      U0331,      U035F ] }; // - _ ◌̱ ◌͟◌ (L3: combining macron below) (L4: combining double macron below)
     key <AE12> { [      U003D,      U002B,      U00F7,      U00D7 ] }; // = + ÷ ×
     // AE13 is in some physical keyboards (e.g. Japanese)
     key <AE13> { [      U00A5,      U007C,      U20B1, VoidSymbol ] }; // ¥ | ₱
