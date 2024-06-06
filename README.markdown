@@ -1,4 +1,4 @@
-﻿# Philippines Unicode Keyboard Layout (PH-UKL) with Baybayin scripts
+# Philippines Unicode Keyboard Layout (PH-UKL) with Baybayin scripts
 
 The **Philippines Unicode Keyboard Layout** (**PH-UKL**) is the first Unicode-based keyboard layout made for the needs of the Filipino people. Its main features are the availability of the Philippine Peso currency symbol, the letter Ññ, as well as, the Philippine diacritical marks.
 
@@ -12,7 +12,7 @@ Aside from the Latin/English script, there are four Baybayin script layouts incl
 
 - Repo: [https://codeberg.org/yelosan/unicode-keyboard-layout-philippines](https://codeberg.org/yelosan/unicode-keyboard-layout-philippines)
 - Official website: [https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/](https://im.youronly.one/techmagus/c/projects/keyboards/ph-ukl/ "Official PH-UKL Page")
-- Project contact: [♾️ 스노 (雪亮 Yuki) 🐬](https://im.youronly.one/p/contact-us/)
+- Project contact: [♾️ Yohan Yuki Xieㆍ사요한・謝雪矢（ゆきや）・謝約翰ㆍיהוחנן 🐬](https://im.youronly.one/p/contact-us/)
 
 ### Layouts
 
