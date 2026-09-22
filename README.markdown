@@ -1,5 +1,7 @@
 # Philippines Unicode Keyboard Layout (PH-UKL) with Baybayin scripts
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22778983.svg)](https://doi.org/10.5281/zenodo.22778983)
+
 The **Philippines Unicode Keyboard Layout** (**PH-UKL**) is the first Unicode-based keyboard layout made for the needs of the Filipino people. Its main features are the availability of the Philippine Peso currency symbol, the letter Ññ, as well as, the Philippine diacritical marks.
 
 Aside from the Latin/English script, there are four Baybayin script layouts included—the Mangyan scripts Baybayin-Buhid and Baybayin-Hanunoo; and Baybayin-Tagalog and Baybayin-Tagbanwa. But wait, there's more! PH-UKL also comes with six (6) other layout variants, namely: Colemak, Colemak-DH, Capewell-QWERF2007, Capewell-QWERF2006, Dvorak, and Capewell-Dvorak.
